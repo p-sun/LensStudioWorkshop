@@ -3,7 +3,7 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563577959351",
+    "lastChanged": "1563578414904",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -30,15 +30,19 @@
                 [
                     [
                         "Materials",
+                        "Material for Mesh - Basic White"
+                    ],
+                    [
+                        "Materials",
+                        "Material for Mesh - Shiny Panda"
+                    ],
+                    [
+                        "Materials",
                         "Material for Post Effect  - VHS"
                     ],
                     [
                         "Materials",
                         "Material for Post Effect - Edge Detection"
-                    ],
-                    [
-                        "Materials",
-                        "Material for Shiny Panda"
                     ],
                     [
                         "Meshes"
@@ -651,6 +655,10 @@
                     ],
                     [
                         "Textures",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
                         "Environment Map"
                     ],
                     [
@@ -705,6 +713,14 @@
                     ],
                     [
                         "Textures",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
+                    ],
+                    [
+                        "Textures",
                         "PandaRainbow"
                     ],
                     [
@@ -732,9 +748,7 @@
                     "1541083950183430:4835",
                     "1541442334703161:48866",
                     "1541458440112110:1133955",
-                    "1563573345307552:66986",
-                    "1563574210264416:150368",
-                    "1563577461616535:65704"
+                    "1563573345307552:66986"
                 ]
             ]
         },
@@ -1536,6 +1550,38 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "223",
+                    "uid": "1563578147927308:83085",
+                    "name": "Files\/File129",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "224",
+                    "uid": "1563578147970153:83127",
+                    "name": "Files\/File131.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "225",
+                    "uid": "1563578147984227:83142",
+                    "name": "Files\/File133.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "226",
+                    "uid": "1563578147998542:83157",
+                    "name": "Files\/File135.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1622,10 +1668,9 @@
                 "49": "1563576969913104:37485",
                 "50": "1563576975286804:40650",
                 "51": "1563577017542849:45652",
-                "52": "1563577461616535:65704",
-                "53": "1563577461617239:65711",
-                "54": "1563577461641601:65780",
-                "55": "1563577461643063:65804"
+                "52": "1563578249557522:87738",
+                "53": "1563578275553947:92003",
+                "54": "1563578303793537:99464"
             }
         },
         "LayerComponent": {
@@ -2073,6 +2118,38 @@
                 {
                     "k": "128",
                     "v": "Files\/File128.mesh"
+                },
+                {
+                    "k": "129",
+                    "v": "Files\/File129"
+                },
+                {
+                    "k": "130",
+                    "v": "Files\/File130.lsmat"
+                },
+                {
+                    "k": "131",
+                    "v": "Files\/File131.png"
+                },
+                {
+                    "k": "132",
+                    "v": "Files\/File132.png"
+                },
+                {
+                    "k": "133",
+                    "v": "Files\/File133.png"
+                },
+                {
+                    "k": "134",
+                    "v": "Files\/File134.png"
+                },
+                {
+                    "k": "135",
+                    "v": "Files\/File135.png"
+                },
+                {
+                    "k": "136",
+                    "v": "Files\/File136.png"
                 }
             ]
         },
@@ -2539,7 +2616,7 @@
                     },
                     {
                         "k": "129",
-                        "v": "Materials\/Material for Shiny Panda.lsmat"
+                        "v": "Materials\/Material for Mesh - Shiny Panda.lsmat"
                     },
                     {
                         "k": "132",
@@ -2556,6 +2633,22 @@
                     {
                         "k": "135",
                         "v": "Meshes"
+                    },
+                    {
+                        "k": "136",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "137",
+                        "v": "Textures\/MaterialParams.png"
+                    },
+                    {
+                        "k": "138",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "139",
+                        "v": "Materials\/Material for Mesh - Basic White.lsmat"
                     }
                 ],
                 "hashes": [
@@ -2949,7 +3042,7 @@
                     },
                     {
                         "k": "129",
-                        "v": "d38a386ba0b8e2a837632a37e8829a73"
+                        "v": "1442db3b102771b0107381a15da00fcc"
                     },
                     {
                         "k": "131",
@@ -2966,6 +3059,22 @@
                     {
                         "k": "134",
                         "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "136",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "137",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "138",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "139",
+                        "v": "55600adbb82415c2d45810c8f055fb7a"
                     }
                 ],
                 "publicState": {
@@ -2973,7 +3082,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-07-19T19:03:48",
                         "name": "Public",
-                        "hash": "44a8c69ad5e5c61156746e3af47ed4ec",
+                        "hash": "1e00d824867233a4e4eaba05be1aefe4",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -3843,9 +3952,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:03:48",
+                                "lastModified": "2019-07-19T19:15:48",
                                 "name": "Textures",
-                                "hash": "a5a28ae32680f4308a7d822dacde17dd",
+                                "hash": "cd165019f1fd11700342360af3f71fcd",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3955,6 +4064,27 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:15:47",
+                                        "name": "MaterialParams.png",
+                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:15:47",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:15:47",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2019-07-14T13:10:20",
                                         "name": "SmallBearWithHeart.gif",
                                         "hash": "8b77e29ce4f29ab1fb4e6970a3608d13",
@@ -3978,9 +4108,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T18:55:52",
+                                "lastModified": "2019-07-19T19:16:13",
                                 "name": "Materials",
-                                "hash": "313c110a8e3e865c87a2d3c2056571d9",
+                                "hash": "639101808639d7726dccff1ceb72fae4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3991,9 +4121,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:55:52",
-                                        "name": "Material for Shiny Panda.lsmat",
-                                        "hash": "d38a386ba0b8e2a837632a37e8829a73",
+                                        "lastModified": "2019-07-19T19:16:13",
+                                        "name": "Material for Mesh - Shiny Panda.lsmat",
+                                        "hash": "1442db3b102771b0107381a15da00fcc",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:16:05",
+                                        "name": "Material for Mesh - Basic White.lsmat",
+                                        "hash": "55600adbb82415c2d45810c8f055fb7a",
                                         "children": ""
                                     },
                                     {
@@ -4297,6 +4434,45 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "224",
+                                "dependency": "0",
+                                "uid": "1563578147970153:83127",
+                                "fileId": "131",
+                                "originalId": "132",
+                                "publicId": "136",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MaterialParams",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "225",
+                                "dependency": "0",
+                                "uid": "1563578147984227:83142",
+                                "fileId": "133",
+                                "originalId": "134",
+                                "publicId": "137",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "226",
+                                "dependency": "0",
+                                "uid": "1563578147998542:83157",
+                                "fileId": "135",
+                                "originalId": "136",
+                                "publicId": "138",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -5685,7 +5861,7 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Material for Shiny Panda",
+                                "name": "Material for Mesh - Shiny Panda",
                                 "type": "2",
                                 "subtype": "0",
                                 "resourceId": "218",
@@ -5695,6 +5871,19 @@
                                 "originalId": "122",
                                 "publicId": "129",
                                 "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/PBR Panda Double Sided.lsmat",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Material for Mesh - Basic White",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "223",
+                                "dependency": "0",
+                                "uid": "1563578147927308:83085",
+                                "fileId": "129",
+                                "originalId": "130",
+                                "publicId": "139",
+                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/materials\/PBR.lsmat",
                                 "additional": ""
                             }
                         ]
@@ -5757,11 +5946,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1563574210264416:150368"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
