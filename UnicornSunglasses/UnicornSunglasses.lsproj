@@ -3,9 +3,9 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563595199059",
+    "lastChanged": "1563617066392",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
-    "videoPreview": "",
+    "videoPreview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "studioVersion": {
@@ -672,6 +672,10 @@
                     ],
                     [
                         "Textures",
+                        "Environment Map"
+                    ],
+                    [
+                        "Textures",
                         "Environment Map",
                         "echopark_diff"
                     ],
@@ -698,6 +702,10 @@
                     ],
                     [
                         "Textures",
+                        "TrippyTexture"
+                    ],
+                    [
+                        "Textures",
                         "UnicornDance"
                     ],
                     [
@@ -713,7 +721,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1495032264252211:307",
                     "1517441814990953:60249",
                     "1541006536369981:1458",
                     "1541009139326173:15789",
@@ -724,17 +731,19 @@
                     "1541083950183430:4835",
                     "1541442334703161:48866",
                     "1541458440112110:1133955",
-                    "1563573345307552:66986"
+                    "1563573345307552:66986",
+                    "1563574210264416:150368"
                 ]
             ]
         },
         "MetaInfoUIComponent": {
             "icon_hash": "a78ae32ef1f99654044fba066549363c",
             "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
             "hints": [
                 ""
             ],
-            "lens": "EducationalUnicorn",
+            "lens": "Trippy Unicorn",
             "camera": "2",
             "lens_descriptors": ""
         },
@@ -1534,6 +1543,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "236",
+                    "uid": "1563599306093014:104556",
+                    "name": "Files\/File152",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2156,6 +2173,14 @@
                 {
                     "k": "151",
                     "v": "Files\/File151.png"
+                },
+                {
+                    "k": "152",
+                    "v": "Files\/File152"
+                },
+                {
+                    "k": "153",
+                    "v": "Files\/File153.gif"
                 }
             ]
         },
@@ -2651,6 +2676,10 @@
                     {
                         "k": "162",
                         "v": "Sunglasses\/Materials\/New Folder"
+                    },
+                    {
+                        "k": "163",
+                        "v": "Textures\/TrippyTexture.gif"
                     }
                 ],
                 "hashes": [
@@ -2980,7 +3009,7 @@
                     },
                     {
                         "k": "110",
-                        "v": "8539d18b1f636e8138a4ccb88e17692a"
+                        "v": "90006c68bf51543f6fccc3efafdeb111"
                     },
                     {
                         "k": "111",
@@ -3153,6 +3182,10 @@
                     {
                         "k": "161",
                         "v": "89e6f39d7adcd01debe3b11b68e56464"
+                    },
+                    {
+                        "k": "163",
+                        "v": "723d51f5caa044ce6a572916ebfd4cf8"
                     }
                 ],
                 "publicState": {
@@ -3160,7 +3193,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-07-19T23:13:25",
                         "name": "Public",
-                        "hash": "f2a1d4debeed59215d731ef6e968e901",
+                        "hash": "57f103581a196344fff8af825c09725e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4045,9 +4078,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T23:13:13",
+                                "lastModified": "2019-07-20T01:09:41",
                                 "name": "Textures",
-                                "hash": "f5be1c91a732aec9958e8bd6cb3b4c05",
+                                "hash": "6cb30ba3e921cadfc9a68dfc4d6cd720",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4068,6 +4101,13 @@
                                         "lastModified": "2019-07-17T04:49:46",
                                         "name": "PandaRainbow.jpg",
                                         "hash": "a59ca88223a27f2a84f0379795b9bc19",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-20T01:08:11",
+                                        "name": "TrippyTexture.gif",
+                                        "hash": "723d51f5caa044ce6a572916ebfd4cf8",
                                         "children": ""
                                     },
                                     {
@@ -4152,9 +4192,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:27:03",
+                                "lastModified": "2019-07-20T01:15:51",
                                 "name": "Materials",
-                                "hash": "ba9a6e8bbe6c82746c4e5980411f33d4",
+                                "hash": "92a0af01a03ad2364d46c9205bc814a1",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4172,9 +4212,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:25:50",
+                                        "lastModified": "2019-07-20T01:15:51",
                                         "name": "Material for Post Effect - Edge Detection.lsmat",
-                                        "hash": "8539d18b1f636e8138a4ccb88e17692a",
+                                        "hash": "90006c68bf51543f6fccc3efafdeb111",
                                         "children": ""
                                     },
                                     {
@@ -4469,6 +4509,19 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "TrippyTexture",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "236",
+                                "dependency": "0",
+                                "uid": "1563599306093014:104556",
+                                "fileId": "152",
+                                "originalId": "153",
+                                "publicId": "163",
+                                "source": "\/Users\/psun\/Desktop\/trippy copy.gif",
+                                "additional": ""
                             }
                         ]
                     },
@@ -6023,7 +6076,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1563574010702969:122302"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
