@@ -3,7 +3,7 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563588817039",
+    "lastChanged": "1563592488764",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -28,25 +28,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "GIPHY Imports",
-                        "Barf"
-                    ],
-                    [
-                        "GIPHY Imports",
-                        "PandaRainbow"
-                    ],
-                    [
-                        "GIPHY Imports",
-                        "UnicornDance"
-                    ],
-                    [
-                        "GIPHY Imports",
-                        "UnicornHorn"
-                    ],
-                    [
-                        "Materials"
-                    ],
                     [
                         "Materials",
                         "Material Basic White"
@@ -94,7 +75,7 @@
                         "Particles Texture"
                     ],
                     [
-                        "Retro Game"
+                        "Sunglasses"
                     ],
                     [
                         "Sunglasses",
@@ -454,10 +435,6 @@
                     ],
                     [
                         "Sunglasses",
-                        "Materials"
-                    ],
-                    [
-                        "Sunglasses",
                         "Materials",
                         "Aviator"
                     ],
@@ -483,6 +460,11 @@
                         "Materials",
                         "Nerd",
                         "nerd_screw"
+                    ],
+                    [
+                        "Sunglasses",
+                        "Materials",
+                        "New Folder"
                     ],
                     [
                         "Sunglasses",
@@ -682,6 +664,10 @@
                     ],
                     [
                         "Textures",
+                        "Barf"
+                    ],
+                    [
+                        "Textures",
                         "Base"
                     ],
                     [
@@ -703,7 +689,23 @@
                         "Normal"
                     ],
                     [
-                        "VT323"
+                        "Textures",
+                        "PandaRainbow"
+                    ],
+                    [
+                        "Textures",
+                        "Retro Game"
+                    ],
+                    [
+                        "Textures",
+                        "UnicornDance"
+                    ],
+                    [
+                        "Textures",
+                        "UnicornHorn"
+                    ],
+                    [
+                        "VT323 Font"
                     ]
                 ]
             ]
@@ -722,8 +724,7 @@
                     "1541083950183430:4835",
                     "1541442334703161:48866",
                     "1541458440112110:1133955",
-                    "1563573345307552:66986",
-                    "1563574210264416:150368"
+                    "1563573345307552:66986"
                 ]
             ]
         },
@@ -2541,15 +2542,15 @@
                     },
                     {
                         "k": "107",
-                        "v": "GIPHY Imports\/UnicornHorn.gif"
+                        "v": "Textures\/UnicornHorn.gif"
                     },
                     {
                         "k": "108",
-                        "v": "GIPHY Imports\/Barf.gif"
+                        "v": "Textures\/Barf.gif"
                     },
                     {
                         "k": "109",
-                        "v": "GIPHY Imports\/UnicornDance.gif"
+                        "v": "Textures\/UnicornDance.gif"
                     },
                     {
                         "k": "110",
@@ -2573,7 +2574,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "GIPHY Imports\/SmallBearWithHeart.gif"
+                        "v": "Textures\/SmallBearWithHeart.gif"
                     },
                     {
                         "k": "129",
@@ -2581,7 +2582,7 @@
                     },
                     {
                         "k": "132",
-                        "v": "GIPHY Imports\/PandaRainbow.jpg"
+                        "v": "Textures\/PandaRainbow.jpg"
                     },
                     {
                         "k": "133",
@@ -2629,11 +2630,7 @@
                     },
                     {
                         "k": "144",
-                        "v": "VT323.ttf"
-                    },
-                    {
-                        "k": "145",
-                        "v": "GIPHY Imports"
+                        "v": "VT323 Font.ttf"
                     },
                     {
                         "k": "149",
@@ -2649,7 +2646,11 @@
                     },
                     {
                         "k": "161",
-                        "v": "Retro Game.png"
+                        "v": "Textures\/Retro Game.png"
+                    },
+                    {
+                        "k": "162",
+                        "v": "Sunglasses\/Materials\/New Folder"
                     }
                 ],
                 "hashes": [
@@ -2687,7 +2688,7 @@
                     },
                     {
                         "k": "13",
-                        "v": "2726ede3accc1469eeeab60e7bd5f7f3"
+                        "v": "8a5ca454aaaaaf565a5333c420c16895"
                     },
                     {
                         "k": "16",
@@ -3157,15 +3158,15 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-19T20:40:41",
+                        "lastModified": "2019-07-19T23:13:25",
                         "name": "Public",
-                        "hash": "acb0e4fe59fe896242c058083a487128",
+                        "hash": "f2a1d4debeed59215d731ef6e968e901",
                         "children": [
                             {
                                 "isFolder": "true",
                                 "lastModified": "2019-07-19T18:26:09",
                                 "name": "Sunglasses",
-                                "hash": "f7495dbf7dc8759215b0d4bfa775ebe3",
+                                "hash": "b3f6ffc8a78d40e055e99afb8b1465f4",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -3383,9 +3384,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T18:12:31",
+                                        "lastModified": "2019-07-19T23:12:38",
                                         "name": "Materials",
-                                        "hash": "079b12f7851ef65f85354262297c54a5",
+                                        "hash": "7aa1c71036b00f9ea839b15e1e1e7a9a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3393,6 +3394,21 @@
                                                 "name": "lens_material.lsmat",
                                                 "hash": "969c1c361d5c34b48a44091f4e6b9834",
                                                 "children": ""
+                                            },
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2019-07-19T23:12:38",
+                                                "name": "New Folder",
+                                                "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-07-19T23:12:38",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "isFolder": "true",
@@ -3461,9 +3477,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-07-19T23:12:20",
                                                 "name": "lens_material_custom.lsmat",
-                                                "hash": "2726ede3accc1469eeeab60e7bd5f7f3",
+                                                "hash": "8a5ca454aaaaaf565a5333c420c16895",
                                                 "children": ""
                                             },
                                             {
@@ -4029,10 +4045,38 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T20:20:53",
+                                "lastModified": "2019-07-19T23:13:13",
                                 "name": "Textures",
-                                "hash": "0c9d6a325e744bd7aa0e6806fcef490f",
+                                "hash": "f5be1c91a732aec9958e8bd6cb3b4c05",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:00:21",
+                                        "name": "Barf.gif",
+                                        "hash": "0e4f629a5330a780b551dd4f86359054",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:01:23",
+                                        "name": "UnicornDance.gif",
+                                        "hash": "cfb6b222073ae03a2af9d6b843a9e87f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-17T04:49:46",
+                                        "name": "PandaRainbow.jpg",
+                                        "hash": "a59ca88223a27f2a84f0379795b9bc19",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-08T14:04:27",
+                                        "name": "Retro Game.png",
+                                        "hash": "89e6f39d7adcd01debe3b11b68e56464",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "true",
                                         "lastModified": "2019-07-19T20:21:06",
@@ -4081,6 +4125,20 @@
                                         "lastModified": "2019-07-19T19:15:47",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-14T13:10:20",
+                                        "name": "SmallBearWithHeart.gif",
+                                        "hash": "8b77e29ce4f29ab1fb4e6970a3608d13",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T17:54:04",
+                                        "name": "UnicornHorn.gif",
+                                        "hash": "28274e878160503e96379f6b0c67849d",
                                         "children": ""
                                     },
                                     {
@@ -4136,63 +4194,6 @@
                                 ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2019-07-08T14:04:27",
-                                "name": "Retro Game.png",
-                                "hash": "89e6f39d7adcd01debe3b11b68e56464",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2019-07-19T20:21:33",
-                                "name": "GIPHY Imports",
-                                "hash": "ee3ccd7e6d4948e31ed8f34dd2f8860b",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:00:21",
-                                        "name": "Barf.gif",
-                                        "hash": "0e4f629a5330a780b551dd4f86359054",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:01:23",
-                                        "name": "UnicornDance.gif",
-                                        "hash": "cfb6b222073ae03a2af9d6b843a9e87f",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-17T04:49:46",
-                                        "name": "PandaRainbow.jpg",
-                                        "hash": "a59ca88223a27f2a84f0379795b9bc19",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-14T13:10:20",
-                                        "name": "SmallBearWithHeart.gif",
-                                        "hash": "8b77e29ce4f29ab1fb4e6970a3608d13",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T17:54:04",
-                                        "name": "UnicornHorn.gif",
-                                        "hash": "28274e878160503e96379f6b0c67849d",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:56:01",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
                                 "isFolder": "true",
                                 "lastModified": "2019-07-19T19:36:00",
                                 "name": "Particles",
@@ -4229,6 +4230,13 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2019-07-08T14:04:27",
+                                "name": "VT323 Font.ttf",
+                                "hash": "d55abc3c7d1a4719dea9fa15ccec203f",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
                                 "lastModified": "2019-07-19T19:03:42",
                                 "name": "Meshes",
@@ -4263,13 +4271,6 @@
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2019-07-08T14:04:27",
-                                "name": "VT323.ttf",
-                                "hash": "d55abc3c7d1a4719dea9fa15ccec203f",
-                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -4348,6 +4349,84 @@
                                 "originalId": "136",
                                 "publicId": "138",
                                 "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "UnicornHorn",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "200",
+                                "dependency": "0",
+                                "uid": "1563573244578855:64818",
+                                "fileId": "88",
+                                "originalId": "89",
+                                "publicId": "107",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-qAlaHm\/sticker rainbow by Stefanie Shank.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Barf",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "201",
+                                "dependency": "0",
+                                "uid": "1563573621458803:90994",
+                                "fileId": "90",
+                                "originalId": "91",
+                                "publicId": "108",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-zlqbiA\/rainbow love Sticker.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "UnicornDance",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "202",
+                                "dependency": "0",
+                                "uid": "1563573684474601:92087",
+                                "fileId": "92",
+                                "originalId": "93",
+                                "publicId": "109",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-QWsSlj\/dance celebrate Sticker by alearause.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "SmallBearWithHeart",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "217",
+                                "dependency": "0",
+                                "uid": "1563576051774738:5100",
+                                "fileId": "119",
+                                "originalId": "120",
+                                "publicId": "128",
+                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/GIPHY Imports\/romantic i love you Sticker.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PandaRainbow",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "220",
+                                "dependency": "0",
+                                "uid": "1563576315677334:15200",
+                                "fileId": "125",
+                                "originalId": "126",
+                                "publicId": "132",
+                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/pandaRainbowSmall.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Retro Game",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "235",
+                                "dependency": "0",
+                                "uid": "1563583241722362:842079",
+                                "fileId": "150",
+                                "originalId": "151",
+                                "publicId": "161",
+                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/RetroGame.png",
                                 "additional": ""
                             },
                             {
@@ -4580,6 +4659,20 @@
                                         "publicId": "13",
                                         "source": "",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "New Folder",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "162",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
                                     }
                                 ]
                             },
@@ -5914,7 +6007,7 @@
                         ]
                     },
                     {
-                        "name": "VT323",
+                        "name": "VT323 Font",
                         "type": "13",
                         "subtype": "0",
                         "resourceId": "230",
@@ -5925,99 +6018,6 @@
                         "publicId": "144",
                         "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/Fonts\/VT323-Regular.ttf",
                         "additional": ""
-                    },
-                    {
-                        "name": "GIPHY Imports",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "145",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "UnicornHorn",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "200",
-                                "dependency": "0",
-                                "uid": "1563573244578855:64818",
-                                "fileId": "88",
-                                "originalId": "89",
-                                "publicId": "107",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-qAlaHm\/sticker rainbow by Stefanie Shank.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Barf",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "201",
-                                "dependency": "0",
-                                "uid": "1563573621458803:90994",
-                                "fileId": "90",
-                                "originalId": "91",
-                                "publicId": "108",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-zlqbiA\/rainbow love Sticker.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "UnicornDance",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "202",
-                                "dependency": "0",
-                                "uid": "1563573684474601:92087",
-                                "fileId": "92",
-                                "originalId": "93",
-                                "publicId": "109",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-QWsSlj\/dance celebrate Sticker by alearause.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "SmallBearWithHeart",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "217",
-                                "dependency": "0",
-                                "uid": "1563576051774738:5100",
-                                "fileId": "119",
-                                "originalId": "120",
-                                "publicId": "128",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/GIPHY Imports\/romantic i love you Sticker.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "PandaRainbow",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "220",
-                                "dependency": "0",
-                                "uid": "1563576315677334:15200",
-                                "fileId": "125",
-                                "originalId": "126",
-                                "publicId": "132",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/pandaRainbowSmall.jpg",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Retro Game",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "235",
-                        "dependency": "0",
-                        "uid": "1563583241722362:842079",
-                        "fileId": "150",
-                        "originalId": "151",
-                        "publicId": "161",
-                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/RetroGame.png",
-                        "additional": ""
                     }
                 ]
             }
@@ -6025,7 +6025,9 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1563583241685919:842026"
+                    "1563576975286804:40650",
+                    "1563576969913104:37485",
+                    "1563577017542849:45652"
                 ]
             }
         },
