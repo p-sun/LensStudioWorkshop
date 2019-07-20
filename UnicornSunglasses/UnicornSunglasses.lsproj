@@ -3,7 +3,7 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563578414904",
+    "lastChanged": "1563582173804",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -29,12 +29,31 @@
             "collapsedList": [
                 [
                     [
-                        "Materials",
-                        "Material for Mesh - Basic White"
+                        "GIPHY Imports",
+                        "Barf"
+                    ],
+                    [
+                        "GIPHY Imports",
+                        "PandaRainbow"
+                    ],
+                    [
+                        "GIPHY Imports",
+                        "UnicornDance"
+                    ],
+                    [
+                        "GIPHY Imports",
+                        "UnicornHorn"
+                    ],
+                    [
+                        "Materials"
                     ],
                     [
                         "Materials",
-                        "Material for Mesh - Shiny Panda"
+                        "Material Basic White"
+                    ],
+                    [
+                        "Materials",
+                        "Material Shiny Panda"
                     ],
                     [
                         "Materials",
@@ -60,7 +79,19 @@
                         "Sphere"
                     ],
                     [
-                        "Sunglasses"
+                        "Particles"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Emitter Material"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Mesh"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Texture"
                     ],
                     [
                         "Sunglasses",
@@ -647,19 +678,8 @@
                         "logo_image"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
-                        "Textures",
-                        "Barf"
-                    ],
-                    [
                         "Textures",
                         "Base"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map"
                     ],
                     [
                         "Textures",
@@ -673,46 +693,6 @@
                     ],
                     [
                         "Textures",
-                        "Environment Map",
-                        "marvista_diff"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "marvista_spec"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "pasadena_diff"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "pasadena_spec"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "pier_diff"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "pier_spec"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "speakeasy_diff"
-                    ],
-                    [
-                        "Textures",
-                        "Environment Map",
-                        "speakeasy_spec"
-                    ],
-                    [
-                        "Textures",
                         "MaterialParams"
                     ],
                     [
@@ -720,16 +700,7 @@
                         "Normal"
                     ],
                     [
-                        "Textures",
-                        "PandaRainbow"
-                    ],
-                    [
-                        "Textures",
-                        "UnicornDance"
-                    ],
-                    [
-                        "Textures",
-                        "UnicornHorn"
+                        "VT323"
                     ]
                 ]
             ]
@@ -748,7 +719,8 @@
                     "1541083950183430:4835",
                     "1541442334703161:48866",
                     "1541458440112110:1133955",
-                    "1563573345307552:66986"
+                    "1563573345307552:66986",
+                    "1563574210264416:150368"
                 ]
             ]
         },
@@ -1320,70 +1292,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "169",
-                    "uid": "1541445743894641:291617",
-                    "name": "\/Resources\/Resource169.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "170",
-                    "uid": "1541445743904121:291626",
-                    "name": "\/Resources\/Resource170.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "172",
-                    "uid": "1541445757449746:291679",
-                    "name": "\/Resources\/Resource172.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "173",
-                    "uid": "1541445757456889:291688",
-                    "name": "\/Resources\/Resource173.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "175",
-                    "uid": "1541445768114678:291767",
-                    "name": "\/Resources\/Resource175.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "176",
-                    "uid": "1541445768122349:291776",
-                    "name": "\/Resources\/Resource176.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "178",
-                    "uid": "1541445781890258:291829",
-                    "name": "\/Resources\/Resource178.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
-                    "resId": "179",
-                    "uid": "1541445781899872:291838",
-                    "name": "\/Resources\/Resource179.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "9"
-                },
-                {
                     "resId": "180",
                     "uid": "1541454117812197:651512",
                     "name": "\/Resources\/Resource180",
@@ -1582,6 +1490,38 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "227",
+                    "uid": "1563579360390948:142106",
+                    "name": "Files\/File137.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "228",
+                    "uid": "1563579360398503:142121",
+                    "name": "Files\/File139",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "229",
+                    "uid": "1563579360450891:142137",
+                    "name": "Files\/File141.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "230",
+                    "uid": "1563580370395850:521773",
+                    "name": "Files\/File142.ttf",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1596,6 +1536,20 @@
                 "ScreenTransform": {
                     "uidData": [
                         {
+                            "k": "1563575463511330:206333",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
                             "k": "1563575463533215:206542",
                             "v": {
                                 "isBasicMode": "true",
@@ -1605,6 +1559,34 @@
                                     "attachBottom": "true",
                                     "attachLeft": "false",
                                     "attachRight": "true",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1563579678983741:156929",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1563579679006104:157138",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
                                     "attachTop": "false"
                                 }
                             }
@@ -1670,7 +1652,10 @@
                 "51": "1563577017542849:45652",
                 "52": "1563578249557522:87738",
                 "53": "1563578275553947:92003",
-                "54": "1563578303793537:99464"
+                "54": "1563578303793537:99464",
+                "55": "1563579360453951:142152",
+                "56": "1563579678983031:156923",
+                "57": "1563579679005935:157135"
             }
         },
         "LayerComponent": {
@@ -1932,38 +1917,6 @@
                     "v": "Files\/File60"
                 },
                 {
-                    "k": "61",
-                    "v": "Files\/File61.png"
-                },
-                {
-                    "k": "62",
-                    "v": "Files\/File62.png"
-                },
-                {
-                    "k": "63",
-                    "v": "Files\/File63.png"
-                },
-                {
-                    "k": "64",
-                    "v": "Files\/File64.png"
-                },
-                {
-                    "k": "65",
-                    "v": "Files\/File65.png"
-                },
-                {
-                    "k": "66",
-                    "v": "Files\/File66.png"
-                },
-                {
-                    "k": "67",
-                    "v": "Files\/File67.png"
-                },
-                {
-                    "k": "68",
-                    "v": "Files\/File68.png"
-                },
-                {
                     "k": "69",
                     "v": "Files\/File69"
                 },
@@ -2150,6 +2103,38 @@
                 {
                     "k": "136",
                     "v": "Files\/File136.png"
+                },
+                {
+                    "k": "137",
+                    "v": "Files\/File137.jpg"
+                },
+                {
+                    "k": "138",
+                    "v": "Files\/File138.jpg"
+                },
+                {
+                    "k": "139",
+                    "v": "Files\/File139"
+                },
+                {
+                    "k": "140",
+                    "v": "Files\/File140.lsmat"
+                },
+                {
+                    "k": "141",
+                    "v": "Files\/File141.mesh"
+                },
+                {
+                    "k": "142",
+                    "v": "Files\/File142.ttf"
+                },
+                {
+                    "k": "144",
+                    "v": "Files\/File144.gif"
+                },
+                {
+                    "k": "147",
+                    "v": "Files\/File147.gif"
                 }
             ]
         },
@@ -2531,64 +2516,20 @@
                         "v": "Sunglasses\/Scripts\/SunglassesController.js"
                     },
                     {
-                        "k": "93",
-                        "v": "Textures\/Environment Map"
-                    },
-                    {
-                        "k": "94",
-                        "v": "Textures\/Environment Map\/echopark_diff.png"
-                    },
-                    {
-                        "k": "95",
-                        "v": "Textures\/Environment Map\/echopark_spec.png"
-                    },
-                    {
-                        "k": "96",
-                        "v": "Textures\/Environment Map\/marvista_diff.png"
-                    },
-                    {
-                        "k": "97",
-                        "v": "Textures\/Environment Map\/marvista_spec.png"
-                    },
-                    {
-                        "k": "98",
-                        "v": "Textures\/Environment Map\/pasadena_diff.png"
-                    },
-                    {
-                        "k": "99",
-                        "v": "Textures\/Environment Map\/pasadena_spec.png"
-                    },
-                    {
-                        "k": "100",
-                        "v": "Textures\/Environment Map\/pier_diff.png"
-                    },
-                    {
-                        "k": "101",
-                        "v": "Textures\/Environment Map\/pier_spec.png"
-                    },
-                    {
-                        "k": "102",
-                        "v": "Textures\/Environment Map\/speakeasy_diff.png"
-                    },
-                    {
-                        "k": "103",
-                        "v": "Textures\/Environment Map\/speakeasy_spec.png"
-                    },
-                    {
                         "k": "106",
                         "v": "Textures"
                     },
                     {
                         "k": "107",
-                        "v": "Textures\/UnicornHorn.gif"
+                        "v": "GIPHY Imports\/UnicornHorn.gif"
                     },
                     {
                         "k": "108",
-                        "v": "Textures\/Barf.gif"
+                        "v": "GIPHY Imports\/Barf.gif"
                     },
                     {
                         "k": "109",
-                        "v": "Textures\/UnicornDance.gif"
+                        "v": "GIPHY Imports\/UnicornDance.gif"
                     },
                     {
                         "k": "110",
@@ -2612,15 +2553,15 @@
                     },
                     {
                         "k": "128",
-                        "v": "Textures\/SmallBearWithHeart.gif"
+                        "v": "GIPHY Imports\/SmallBearWithHeart.gif"
                     },
                     {
                         "k": "129",
-                        "v": "Materials\/Material for Mesh - Shiny Panda.lsmat"
+                        "v": "Materials\/Material Shiny Panda.lsmat"
                     },
                     {
                         "k": "132",
-                        "v": "Textures\/PandaRainbow.jpg"
+                        "v": "GIPHY Imports\/PandaRainbow.jpg"
                     },
                     {
                         "k": "133",
@@ -2648,7 +2589,43 @@
                     },
                     {
                         "k": "139",
-                        "v": "Materials\/Material for Mesh - Basic White.lsmat"
+                        "v": "Materials\/Material Basic White.lsmat"
+                    },
+                    {
+                        "k": "140",
+                        "v": "Particles"
+                    },
+                    {
+                        "k": "141",
+                        "v": "Particles\/Particles Texture.jpg"
+                    },
+                    {
+                        "k": "142",
+                        "v": "Particles\/Particles Emitter Material.lsmat"
+                    },
+                    {
+                        "k": "143",
+                        "v": "Particles\/Particles Mesh.mesh"
+                    },
+                    {
+                        "k": "144",
+                        "v": "VT323.ttf"
+                    },
+                    {
+                        "k": "145",
+                        "v": "GIPHY Imports"
+                    },
+                    {
+                        "k": "149",
+                        "v": "Textures\/Environment Map"
+                    },
+                    {
+                        "k": "150",
+                        "v": "Textures\/Environment Map\/echopark_diff.png"
+                    },
+                    {
+                        "k": "151",
+                        "v": "Textures\/Environment Map\/echopark_spec.png"
                     }
                 ],
                 "hashes": [
@@ -3042,7 +3019,7 @@
                     },
                     {
                         "k": "129",
-                        "v": "1442db3b102771b0107381a15da00fcc"
+                        "v": "107403ac888a366bdbe15ca3f721342d"
                     },
                     {
                         "k": "131",
@@ -3074,15 +3051,83 @@
                     },
                     {
                         "k": "139",
-                        "v": "55600adbb82415c2d45810c8f055fb7a"
+                        "v": "33d3b16558f250967fa6f0cbe3b909f3"
+                    },
+                    {
+                        "k": "141",
+                        "v": "633e6164fd04c2de5d7f0ed88b3dd76d"
+                    },
+                    {
+                        "k": "142",
+                        "v": "94de42b7cb879e1d627d6c79a7f3ae10"
+                    },
+                    {
+                        "k": "143",
+                        "v": "a5adcbdb568b3556fe3d03137cb05292"
+                    },
+                    {
+                        "k": "144",
+                        "v": "d55abc3c7d1a4719dea9fa15ccec203f"
+                    },
+                    {
+                        "k": "146",
+                        "v": "5e5669eb86a84dc432d345f31d7d0739"
+                    },
+                    {
+                        "k": "147",
+                        "v": "9fd488299c494bc66ede8b3f5625322d"
+                    },
+                    {
+                        "k": "148",
+                        "v": "ad5cd0e24efd1ace340c0adc63aa4c85"
+                    },
+                    {
+                        "k": "150",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "151",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "152",
+                        "v": "dd265cc71cae0a5aab6bfa512963f500"
+                    },
+                    {
+                        "k": "153",
+                        "v": "f14b43f257b218248e1334c38330a213"
+                    },
+                    {
+                        "k": "154",
+                        "v": "062967e894dfc19391d58939f96e0d78"
+                    },
+                    {
+                        "k": "155",
+                        "v": "4d9f028bd811789368f952f889ec7c3f"
+                    },
+                    {
+                        "k": "156",
+                        "v": "6f48def57a118a187723eb459c6174a2"
+                    },
+                    {
+                        "k": "157",
+                        "v": "9efd5c44c3a17005818b983d486ec413"
+                    },
+                    {
+                        "k": "158",
+                        "v": "deabc4bbb84873c63de3e53fe062c208"
+                    },
+                    {
+                        "k": "159",
+                        "v": "715337c08710a9ea39e66f1e218762d0"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-19T19:03:48",
+                        "lastModified": "2019-07-19T19:56:01",
                         "name": "Public",
-                        "hash": "1e00d824867233a4e4eaba05be1aefe4",
+                        "hash": "abe6d0811dcc64b3e98cfc4d4d3a08ed",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -3952,110 +3997,33 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:15:48",
+                                "lastModified": "2019-07-19T20:20:53",
                                 "name": "Textures",
-                                "hash": "cd165019f1fd11700342360af3f71fcd",
+                                "hash": "0c9d6a325e744bd7aa0e6806fcef490f",
                                 "children": [
                                     {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:00:21",
-                                        "name": "Barf.gif",
-                                        "hash": "0e4f629a5330a780b551dd4f86359054",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:01:23",
-                                        "name": "UnicornDance.gif",
-                                        "hash": "cfb6b222073ae03a2af9d6b843a9e87f",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-17T04:49:46",
-                                        "name": "PandaRainbow.jpg",
-                                        "hash": "a59ca88223a27f2a84f0379795b9bc19",
-                                        "children": ""
-                                    },
-                                    {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T17:54:34",
+                                        "lastModified": "2019-07-19T20:21:06",
                                         "name": "Environment Map",
-                                        "hash": "97d66adb4dbe2dd0e57041ac77fe3c49",
+                                        "hash": "5d0daf4be82fee50df678f1d3a4975ad",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "marvista_diff.png",
-                                                "hash": "dd265cc71cae0a5aab6bfa512963f500",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "pasadena_spec.png",
-                                                "hash": "4d9f028bd811789368f952f889ec7c3f",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
+                                                "lastModified": "2019-07-19T18:40:50",
                                                 "name": "echopark_diff.png",
                                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "pier_diff.png",
-                                                "hash": "6f48def57a118a187723eb459c6174a2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "pier_spec.png",
-                                                "hash": "9efd5c44c3a17005818b983d486ec413",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
+                                                "lastModified": "2019-07-19T18:40:50",
                                                 "name": "echopark_spec.png",
                                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "pasadena_diff.png",
-                                                "hash": "062967e894dfc19391d58939f96e0d78",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "marvista_spec.png",
-                                                "hash": "f14b43f257b218248e1334c38330a213",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "speakeasy_spec.png",
-                                                "hash": "715337c08710a9ea39e66f1e218762d0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
-                                                "name": "speakeasy_diff.png",
-                                                "hash": "deabc4bbb84873c63de3e53fe062c208",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:29",
+                                                "lastModified": "2019-07-19T20:20:53",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4085,6 +4053,85 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2019-07-19T17:54:04",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-07-19T19:27:03",
+                                "name": "Materials",
+                                "hash": "ba9a6e8bbe6c82746c4e5980411f33d4",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:27:03",
+                                        "name": "Material Shiny Panda.lsmat",
+                                        "hash": "107403ac888a366bdbe15ca3f721342d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T19:26:56",
+                                        "name": "Material Basic White.lsmat",
+                                        "hash": "33d3b16558f250967fa6f0cbe3b909f3",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:25:50",
+                                        "name": "Material for Post Effect - Edge Detection.lsmat",
+                                        "hash": "8539d18b1f636e8138a4ccb88e17692a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:25:50",
+                                        "name": "Material for Post Effect  - VHS.lsmat",
+                                        "hash": "0544dbf22ca1f661c10ad1b5df3ddb1a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:25:27",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-07-19T20:21:33",
+                                "name": "GIPHY Imports",
+                                "hash": "ee3ccd7e6d4948e31ed8f34dd2f8860b",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:00:21",
+                                        "name": "Barf.gif",
+                                        "hash": "0e4f629a5330a780b551dd4f86359054",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-19T18:01:23",
+                                        "name": "UnicornDance.gif",
+                                        "hash": "cfb6b222073ae03a2af9d6b843a9e87f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-17T04:49:46",
+                                        "name": "PandaRainbow.jpg",
+                                        "hash": "a59ca88223a27f2a84f0379795b9bc19",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2019-07-14T13:10:20",
                                         "name": "SmallBearWithHeart.gif",
                                         "hash": "8b77e29ce4f29ab1fb4e6970a3608d13",
@@ -4099,7 +4146,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T17:54:04",
+                                        "lastModified": "2019-07-19T19:56:01",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4108,41 +4155,34 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:16:13",
-                                "name": "Materials",
-                                "hash": "639101808639d7726dccff1ceb72fae4",
+                                "lastModified": "2019-07-19T19:36:00",
+                                "name": "Particles",
+                                "hash": "393998121752dffb58bcd7af5bdbdd5d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:25:50",
-                                        "name": "Material for Post Effect - Edge Detection.lsmat",
-                                        "hash": "8539d18b1f636e8138a4ccb88e17692a",
+                                        "lastModified": "2019-07-19T19:36:00",
+                                        "name": "Particles Mesh.mesh",
+                                        "hash": "a5adcbdb568b3556fe3d03137cb05292",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:16:13",
-                                        "name": "Material for Mesh - Shiny Panda.lsmat",
-                                        "hash": "1442db3b102771b0107381a15da00fcc",
+                                        "lastModified": "2019-07-19T19:36:00",
+                                        "name": "Particles Emitter Material.lsmat",
+                                        "hash": "94de42b7cb879e1d627d6c79a7f3ae10",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:16:05",
-                                        "name": "Material for Mesh - Basic White.lsmat",
-                                        "hash": "55600adbb82415c2d45810c8f055fb7a",
+                                        "lastModified": "2019-07-19T19:36:00",
+                                        "name": "Particles Texture.jpg",
+                                        "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:25:50",
-                                        "name": "Material for Post Effect  - VHS.lsmat",
-                                        "hash": "0544dbf22ca1f661c10ad1b5df3ddb1a",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:25:27",
+                                        "lastModified": "2019-07-19T19:36:00",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4187,6 +4227,13 @@
                             },
                             {
                                 "isFolder": "false",
+                                "lastModified": "2019-07-08T14:04:27",
+                                "name": "VT323.ttf",
+                                "hash": "d55abc3c7d1a4719dea9fa15ccec203f",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
                                 "lastModified": "2019-07-08T14:04:29",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -4226,216 +4273,6 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "UnicornHorn",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "200",
-                                "dependency": "0",
-                                "uid": "1563573244578855:64818",
-                                "fileId": "88",
-                                "originalId": "89",
-                                "publicId": "107",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-qAlaHm\/sticker rainbow by Stefanie Shank.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Barf",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "201",
-                                "dependency": "0",
-                                "uid": "1563573621458803:90994",
-                                "fileId": "90",
-                                "originalId": "91",
-                                "publicId": "108",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-zlqbiA\/rainbow love Sticker.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "UnicornDance",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "202",
-                                "dependency": "0",
-                                "uid": "1563573684474601:92087",
-                                "fileId": "92",
-                                "originalId": "93",
-                                "publicId": "109",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-QWsSlj\/dance celebrate Sticker by alearause.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "SmallBearWithHeart",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "217",
-                                "dependency": "0",
-                                "uid": "1563576051774738:5100",
-                                "fileId": "119",
-                                "originalId": "120",
-                                "publicId": "128",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/GIPHY Imports\/romantic i love you Sticker.gif",
-                                "additional": ""
-                            },
-                            {
-                                "name": "PandaRainbow",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "220",
-                                "dependency": "0",
-                                "uid": "1563576315677334:15200",
-                                "fileId": "125",
-                                "originalId": "126",
-                                "publicId": "132",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/pandaRainbowSmall.jpg",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Environment Map",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "93",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "echopark_diff",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "6",
-                                        "dependency": "0",
-                                        "uid": "1517441814993918:60264",
-                                        "fileId": "2",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "94",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "echopark_spec",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "7",
-                                        "dependency": "0",
-                                        "uid": "1517441815002983:60276",
-                                        "fileId": "3",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "95",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "marvista_diff",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "169",
-                                        "dependency": "0",
-                                        "uid": "1541445743894641:291617",
-                                        "fileId": "61",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "96",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "marvista_spec",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "170",
-                                        "dependency": "0",
-                                        "uid": "1541445743904121:291626",
-                                        "fileId": "62",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "97",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "pasadena_diff",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "172",
-                                        "dependency": "0",
-                                        "uid": "1541445757449746:291679",
-                                        "fileId": "63",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "98",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "pasadena_spec",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "173",
-                                        "dependency": "0",
-                                        "uid": "1541445757456889:291688",
-                                        "fileId": "64",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "99",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "pier_diff",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "175",
-                                        "dependency": "0",
-                                        "uid": "1541445768114678:291767",
-                                        "fileId": "65",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "100",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "pier_spec",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "176",
-                                        "dependency": "0",
-                                        "uid": "1541445768122349:291776",
-                                        "fileId": "66",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "101",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "speakeasy_diff",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "178",
-                                        "dependency": "0",
-                                        "uid": "1541445781890258:291829",
-                                        "fileId": "67",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "102",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "speakeasy_spec",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "179",
-                                        "dependency": "0",
-                                        "uid": "1541445781899872:291838",
-                                        "fileId": "68",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "103",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
                                 "name": "Base",
                                 "type": "1",
                                 "subtype": "9",
@@ -4473,6 +4310,47 @@
                                 "publicId": "138",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Environment Map",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "149",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "echopark_diff",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "6",
+                                        "dependency": "0",
+                                        "uid": "1517441814993918:60264",
+                                        "fileId": "2",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "150",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "echopark_spec",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "7",
+                                        "dependency": "0",
+                                        "uid": "1517441815002983:60276",
+                                        "fileId": "3",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "151",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -5861,7 +5739,7 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Material for Mesh - Shiny Panda",
+                                "name": "Material Shiny Panda",
                                 "type": "2",
                                 "subtype": "0",
                                 "resourceId": "218",
@@ -5874,7 +5752,7 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Material for Mesh - Basic White",
+                                "name": "Material Basic White",
                                 "type": "2",
                                 "subtype": "0",
                                 "resourceId": "223",
@@ -5941,12 +5819,163 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Particles",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "140",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Particles Texture",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "227",
+                                "dependency": "0",
+                                "uid": "1563579360390948:142106",
+                                "fileId": "137",
+                                "originalId": "138",
+                                "publicId": "141",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Particles Emitter Material",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "228",
+                                "dependency": "0",
+                                "uid": "1563579360398503:142121",
+                                "fileId": "139",
+                                "originalId": "140",
+                                "publicId": "142",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Particles Mesh",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "229",
+                                "dependency": "0",
+                                "uid": "1563579360450891:142137",
+                                "fileId": "141",
+                                "originalId": "18446744073709551615",
+                                "publicId": "143",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "VT323",
+                        "type": "13",
+                        "subtype": "0",
+                        "resourceId": "230",
+                        "dependency": "0",
+                        "uid": "1563580370395850:521773",
+                        "fileId": "142",
+                        "originalId": "18446744073709551615",
+                        "publicId": "144",
+                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/Fonts\/VT323-Regular.ttf",
+                        "additional": ""
+                    },
+                    {
+                        "name": "GIPHY Imports",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "145",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "UnicornHorn",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "200",
+                                "dependency": "0",
+                                "uid": "1563573244578855:64818",
+                                "fileId": "88",
+                                "originalId": "89",
+                                "publicId": "107",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-qAlaHm\/sticker rainbow by Stefanie Shank.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Barf",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "201",
+                                "dependency": "0",
+                                "uid": "1563573621458803:90994",
+                                "fileId": "90",
+                                "originalId": "91",
+                                "publicId": "108",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-zlqbiA\/rainbow love Sticker.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "UnicornDance",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "202",
+                                "dependency": "0",
+                                "uid": "1563573684474601:92087",
+                                "fileId": "92",
+                                "originalId": "93",
+                                "publicId": "109",
+                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-QWsSlj\/dance celebrate Sticker by alearause.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "SmallBearWithHeart",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "217",
+                                "dependency": "0",
+                                "uid": "1563576051774738:5100",
+                                "fileId": "119",
+                                "originalId": "120",
+                                "publicId": "128",
+                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/GIPHY Imports\/romantic i love you Sticker.gif",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PandaRainbow",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "220",
+                                "dependency": "0",
+                                "uid": "1563576315677334:15200",
+                                "fileId": "125",
+                                "originalId": "126",
+                                "publicId": "132",
+                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/pandaRainbowSmall.jpg",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1563579679005935:157135"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
