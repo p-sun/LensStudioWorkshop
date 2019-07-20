@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "93b95b3f-9971-4db3-9270-d3d48eba2de0",
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563592488764",
+    "lastChanged": "1563595199059",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -729,12 +729,12 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "5f59ca963c1fe619c7f680f174f4cc15",
+            "icon_hash": "a78ae32ef1f99654044fba066549363c",
             "icon_path": "icon.png",
             "hints": [
                 ""
             ],
-            "lens": "Sunglasses",
+            "lens": "EducationalUnicorn",
             "camera": "2",
             "lens_descriptors": ""
         },
@@ -1598,7 +1598,7 @@
                                     "fixHeight": "false",
                                     "attachBottom": "true",
                                     "attachLeft": "true",
-                                    "attachRight": "false",
+                                    "attachRight": "true",
                                     "attachTop": "false"
                                 }
                             }
@@ -6023,13 +6023,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1563576975286804:40650",
-                    "1563576969913104:37485",
-                    "1563577017542849:45652"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
