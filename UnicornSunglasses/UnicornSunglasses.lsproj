@@ -3,7 +3,7 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563582173804",
+    "lastChanged": "1563588817039",
     "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -92,6 +92,9 @@
                     [
                         "Particles",
                         "Particles Texture"
+                    ],
+                    [
+                        "Retro Game"
                     ],
                     [
                         "Sunglasses",
@@ -1522,6 +1525,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "235",
+                    "uid": "1563583241722362:842079",
+                    "name": "Files\/File150.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1655,7 +1666,8 @@
                 "54": "1563578303793537:99464",
                 "55": "1563579360453951:142152",
                 "56": "1563579678983031:156923",
-                "57": "1563579679005935:157135"
+                "57": "1563579679005935:157135",
+                "58": "1563583241685919:842026"
             }
         },
         "LayerComponent": {
@@ -2135,6 +2147,14 @@
                 {
                     "k": "147",
                     "v": "Files\/File147.gif"
+                },
+                {
+                    "k": "150",
+                    "v": "Files\/File150.png"
+                },
+                {
+                    "k": "151",
+                    "v": "Files\/File151.png"
                 }
             ]
         },
@@ -2626,6 +2646,10 @@
                     {
                         "k": "151",
                         "v": "Textures\/Environment Map\/echopark_spec.png"
+                    },
+                    {
+                        "k": "161",
+                        "v": "Retro Game.png"
                     }
                 ],
                 "hashes": [
@@ -3120,14 +3144,22 @@
                     {
                         "k": "159",
                         "v": "715337c08710a9ea39e66f1e218762d0"
+                    },
+                    {
+                        "k": "160",
+                        "v": "02b1b37f184872867fe34aeefa39363a"
+                    },
+                    {
+                        "k": "161",
+                        "v": "89e6f39d7adcd01debe3b11b68e56464"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-19T19:56:01",
+                        "lastModified": "2019-07-19T20:40:41",
                         "name": "Public",
-                        "hash": "abe6d0811dcc64b3e98cfc4d4d3a08ed",
+                        "hash": "acb0e4fe59fe896242c058083a487128",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4102,6 +4134,13 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-07-08T14:04:27",
+                                "name": "Retro Game.png",
+                                "hash": "89e6f39d7adcd01debe3b11b68e56464",
+                                "children": ""
                             },
                             {
                                 "isFolder": "true",
@@ -5966,6 +6005,19 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Retro Game",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "235",
+                        "dependency": "0",
+                        "uid": "1563583241722362:842079",
+                        "fileId": "150",
+                        "originalId": "151",
+                        "publicId": "161",
+                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/RetroGame.png",
+                        "additional": ""
                     }
                 ]
             }
@@ -5973,7 +6025,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1563579679005935:157135"
+                    "1563583241685919:842026"
                 ]
             }
         },
