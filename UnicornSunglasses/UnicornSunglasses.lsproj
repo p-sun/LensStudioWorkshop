@@ -3,9 +3,9 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1563617066392",
-    "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
-    "videoPreview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/preview.mp4",
+    "lastChanged": "1564821653368",
+    "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
+    "videoPreview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "studioVersion": {
@@ -28,6 +28,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Materials"
+                    ],
                     [
                         "Materials",
                         "Material Basic White"
@@ -668,10 +671,6 @@
                     ],
                     [
                         "Textures",
-                        "Base"
-                    ],
-                    [
-                        "Textures",
                         "Environment Map"
                     ],
                     [
@@ -686,14 +685,6 @@
                     ],
                     [
                         "Textures",
-                        "MaterialParams"
-                    ],
-                    [
-                        "Textures",
-                        "Normal"
-                    ],
-                    [
-                        "Textures",
                         "PandaRainbow"
                     ],
                     [
@@ -702,7 +693,43 @@
                     ],
                     [
                         "Textures",
-                        "TrippyTexture"
+                        "Solid Colors",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Colors",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Colors",
+                        "Normal"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Textures",
+                        "butterfly"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Textures",
+                        "mercury"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Textures",
+                        "pinkHexagon"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Textures",
+                        "redWaves"
+                    ],
+                    [
+                        "Textures",
+                        "Solid Textures",
+                        "trippy"
                     ],
                     [
                         "Textures",
@@ -732,7 +759,9 @@
                     "1541442334703161:48866",
                     "1541458440112110:1133955",
                     "1563573345307552:66986",
-                    "1563574210264416:150368"
+                    "1563574210264416:150368",
+                    "1563575463510720:206327",
+                    "1563579678983031:156923"
                 ]
             ]
         },
@@ -1551,6 +1580,38 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "237",
+                    "uid": "1564821236662831:15637",
+                    "name": "Files\/File154",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "238",
+                    "uid": "1564821236812321:15655",
+                    "name": "Files\/File156",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "239",
+                    "uid": "1564821237038970:16379",
+                    "name": "Files\/File158",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "240",
+                    "uid": "1564821237246318:17750",
+                    "name": "Files\/File160",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2181,6 +2242,42 @@
                 {
                     "k": "153",
                     "v": "Files\/File153.gif"
+                },
+                {
+                    "k": "154",
+                    "v": "Files\/File154"
+                },
+                {
+                    "k": "155",
+                    "v": "Files\/File155.gif"
+                },
+                {
+                    "k": "156",
+                    "v": "Files\/File156"
+                },
+                {
+                    "k": "157",
+                    "v": "Files\/File157.gif"
+                },
+                {
+                    "k": "158",
+                    "v": "Files\/File158"
+                },
+                {
+                    "k": "159",
+                    "v": "Files\/File159.gif"
+                },
+                {
+                    "k": "160",
+                    "v": "Files\/File160"
+                },
+                {
+                    "k": "161",
+                    "v": "Files\/File161.gif"
+                },
+                {
+                    "k": "163",
+                    "v": "Files\/File163.gif"
                 }
             ]
         },
@@ -2623,15 +2720,15 @@
                     },
                     {
                         "k": "136",
-                        "v": "Textures\/Base.png"
+                        "v": "Textures\/Solid Colors\/Base.png"
                     },
                     {
                         "k": "137",
-                        "v": "Textures\/MaterialParams.png"
+                        "v": "Textures\/Solid Colors\/MaterialParams.png"
                     },
                     {
                         "k": "138",
-                        "v": "Textures\/Normal.png"
+                        "v": "Textures\/Solid Colors\/Normal.png"
                     },
                     {
                         "k": "139",
@@ -2679,7 +2776,31 @@
                     },
                     {
                         "k": "163",
-                        "v": "Textures\/TrippyTexture.gif"
+                        "v": "Textures\/Solid Textures\/trippy.gif"
+                    },
+                    {
+                        "k": "166",
+                        "v": "Textures\/Solid Colors"
+                    },
+                    {
+                        "k": "168",
+                        "v": "Textures\/Solid Textures"
+                    },
+                    {
+                        "k": "169",
+                        "v": "Textures\/Solid Textures\/butterfly.gif"
+                    },
+                    {
+                        "k": "170",
+                        "v": "Textures\/Solid Textures\/mercury.gif"
+                    },
+                    {
+                        "k": "171",
+                        "v": "Textures\/Solid Textures\/pinkHexagon.gif"
+                    },
+                    {
+                        "k": "172",
+                        "v": "Textures\/Solid Textures\/redWaves.gif"
                     }
                 ],
                 "hashes": [
@@ -3181,19 +3302,47 @@
                     },
                     {
                         "k": "161",
-                        "v": "89e6f39d7adcd01debe3b11b68e56464"
+                        "v": "17be8affc6a9ba2789c94076bf929e0d"
                     },
                     {
                         "k": "163",
+                        "v": "723d51f5caa044ce6a572916ebfd4cf8"
+                    },
+                    {
+                        "k": "164",
+                        "v": "59adb24ef3cdbe0297f05b395827453f"
+                    },
+                    {
+                        "k": "165",
+                        "v": "59adb24ef3cdbe0297f05b395827453f"
+                    },
+                    {
+                        "k": "169",
+                        "v": "ec62fb1846194c97d9c3ef5eca75b01f"
+                    },
+                    {
+                        "k": "170",
+                        "v": "001f9ab22d67a894440c87fc8f9128b8"
+                    },
+                    {
+                        "k": "171",
+                        "v": "160616aba2992020f5b343bfbe446dec"
+                    },
+                    {
+                        "k": "172",
+                        "v": "beab94141c371a47c1ed8472897fd856"
+                    },
+                    {
+                        "k": "173",
                         "v": "723d51f5caa044ce6a572916ebfd4cf8"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-19T23:13:25",
+                        "lastModified": "2019-08-03T04:34:57",
                         "name": "Public",
-                        "hash": "57f103581a196344fff8af825c09725e",
+                        "hash": "6d78ab1844b648d8318cd2596840032e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4078,9 +4227,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-20T01:09:41",
+                                "lastModified": "2019-08-03T04:34:28",
                                 "name": "Textures",
-                                "hash": "6cb30ba3e921cadfc9a68dfc4d6cd720",
+                                "hash": "a43d0191b5f4aa9ffdeb09b4d391ce47",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4104,17 +4253,60 @@
                                         "children": ""
                                     },
                                     {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-20T01:08:11",
-                                        "name": "TrippyTexture.gif",
-                                        "hash": "723d51f5caa044ce6a572916ebfd4cf8",
-                                        "children": ""
+                                        "isFolder": "true",
+                                        "lastModified": "2019-08-03T04:34:13",
+                                        "name": "Solid Textures",
+                                        "hash": "23cb4724d4abcb3b5deffa3760168700",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-02T21:37:37",
+                                                "name": "redWaves.gif",
+                                                "hash": "beab94141c371a47c1ed8472897fd856",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-02T21:35:56",
+                                                "name": "mercury.gif",
+                                                "hash": "001f9ab22d67a894440c87fc8f9128b8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-02T21:24:56",
+                                                "name": "pinkHexagon.gif",
+                                                "hash": "160616aba2992020f5b343bfbe446dec",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-02T21:27:15",
+                                                "name": "butterfly.gif",
+                                                "hash": "ec62fb1846194c97d9c3ef5eca75b01f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-07-20T01:08:11",
+                                                "name": "trippy.gif",
+                                                "hash": "723d51f5caa044ce6a572916ebfd4cf8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-03T04:33:19",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-08T14:04:27",
+                                        "lastModified": "2019-08-03T04:38:01",
                                         "name": "Retro Game.png",
-                                        "hash": "89e6f39d7adcd01debe3b11b68e56464",
+                                        "hash": "17be8affc6a9ba2789c94076bf929e0d",
                                         "children": ""
                                     },
                                     {
@@ -4147,25 +4339,40 @@
                                         ]
                                     },
                                     {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:15:47",
-                                        "name": "MaterialParams.png",
-                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:15:47",
-                                        "name": "Base.png",
-                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:15:47",
-                                        "name": "Normal.png",
-                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
-                                        "children": ""
+                                        "isFolder": "true",
+                                        "lastModified": "2019-08-03T04:39:33",
+                                        "name": "Solid Colors",
+                                        "hash": "7177722356546fc5e58a557305b940ce",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-07-19T19:15:47",
+                                                "name": "MaterialParams.png",
+                                                "hash": "af2715bddfbca2d4e72f470d285c5010",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-07-19T19:15:47",
+                                                "name": "Base.png",
+                                                "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-07-19T19:15:47",
+                                                "name": "Normal.png",
+                                                "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-08-03T04:32:43",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
                                     },
                                     {
                                         "isFolder": "false",
@@ -4192,13 +4399,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-20T01:15:51",
+                                "lastModified": "2019-08-03T02:15:25",
                                 "name": "Materials",
                                 "hash": "92a0af01a03ad2364d46c9205bc814a1",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:27:03",
+                                        "lastModified": "2019-08-03T02:15:25",
                                         "name": "Material Shiny Panda.lsmat",
                                         "hash": "107403ac888a366bdbe15ca3f721342d",
                                         "children": ""
@@ -4212,7 +4419,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-20T01:15:51",
+                                        "lastModified": "2019-08-03T02:15:25",
                                         "name": "Material for Post Effect - Edge Detection.lsmat",
                                         "hash": "90006c68bf51543f6fccc3efafdeb111",
                                         "children": ""
@@ -4235,7 +4442,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:36:00",
+                                "lastModified": "2019-07-20T21:32:26",
                                 "name": "Particles",
                                 "hash": "393998121752dffb58bcd7af5bdbdd5d",
                                 "children": [
@@ -4248,7 +4455,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:36:00",
+                                        "lastModified": "2019-07-20T21:32:26",
                                         "name": "Particles Emitter Material.lsmat",
                                         "hash": "94de42b7cb879e1d627d6c79a7f3ae10",
                                         "children": ""
@@ -4352,45 +4559,6 @@
                         "source": "",
                         "additional": "",
                         "resources": [
-                            {
-                                "name": "Base",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "224",
-                                "dependency": "0",
-                                "uid": "1563578147970153:83127",
-                                "fileId": "131",
-                                "originalId": "132",
-                                "publicId": "136",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "MaterialParams",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "225",
-                                "dependency": "0",
-                                "uid": "1563578147984227:83142",
-                                "fileId": "133",
-                                "originalId": "134",
-                                "publicId": "137",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Normal",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "226",
-                                "dependency": "0",
-                                "uid": "1563578147998542:83157",
-                                "fileId": "135",
-                                "originalId": "136",
-                                "publicId": "138",
-                                "source": "",
-                                "additional": ""
-                            },
                             {
                                 "name": "UnicornHorn",
                                 "type": "1",
@@ -4511,17 +4679,138 @@
                                 ]
                             },
                             {
-                                "name": "TrippyTexture",
-                                "type": "1",
-                                "subtype": "5",
-                                "resourceId": "236",
+                                "name": "Solid Colors",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
                                 "dependency": "0",
-                                "uid": "1563599306093014:104556",
-                                "fileId": "152",
-                                "originalId": "153",
-                                "publicId": "163",
-                                "source": "\/Users\/psun\/Desktop\/trippy copy.gif",
-                                "additional": ""
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "166",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Base",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "224",
+                                        "dependency": "0",
+                                        "uid": "1563578147970153:83127",
+                                        "fileId": "131",
+                                        "originalId": "132",
+                                        "publicId": "136",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "MaterialParams",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "225",
+                                        "dependency": "0",
+                                        "uid": "1563578147984227:83142",
+                                        "fileId": "133",
+                                        "originalId": "134",
+                                        "publicId": "137",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Normal",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "226",
+                                        "dependency": "0",
+                                        "uid": "1563578147998542:83157",
+                                        "fileId": "135",
+                                        "originalId": "136",
+                                        "publicId": "138",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Solid Textures",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "168",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "butterfly",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "237",
+                                        "dependency": "0",
+                                        "uid": "1564821236662831:15637",
+                                        "fileId": "154",
+                                        "originalId": "155",
+                                        "publicId": "169",
+                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/butterfly.gif",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "mercury",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "238",
+                                        "dependency": "0",
+                                        "uid": "1564821236812321:15655",
+                                        "fileId": "156",
+                                        "originalId": "157",
+                                        "publicId": "170",
+                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/mercury.gif",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "pinkHexagon",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "239",
+                                        "dependency": "0",
+                                        "uid": "1564821237038970:16379",
+                                        "fileId": "158",
+                                        "originalId": "159",
+                                        "publicId": "171",
+                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/pinkHexagon.gif",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "redWaves",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "240",
+                                        "dependency": "0",
+                                        "uid": "1564821237246318:17750",
+                                        "fileId": "160",
+                                        "originalId": "161",
+                                        "publicId": "172",
+                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/redWaves.gif",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "trippy",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "236",
+                                        "dependency": "0",
+                                        "uid": "1563599306093014:104556",
+                                        "fileId": "152",
+                                        "originalId": "153",
+                                        "publicId": "163",
+                                        "source": "\/Users\/psun\/Desktop\/trippy copy.gif",
+                                        "additional": ""
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -6078,7 +6367,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1563574010702969:122302"
+                    "1563583241685919:842026"
                 ]
             }
         },
