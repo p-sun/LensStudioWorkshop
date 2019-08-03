@@ -3,8 +3,8 @@
     "document_id": "rOKaHhWh0NWpd3jeHFt7",
     "original_document_id": "rOKaHhWh0NWpd3jeHFt7",
     "version": "14",
-    "lastChanged": "1563592988636",
-    "preview": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/MakeupFacePaint\/icon.png",
+    "lastChanged": "1564812812121",
+    "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/MakeupFacePaint\/icon.png",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
@@ -156,11 +156,11 @@
                     ],
                     [
                         "My Makeup Textures",
-                        "EyeLashes"
+                        "Eye"
                     ],
                     [
                         "My Makeup Textures",
-                        "EyeShadow"
+                        "EyeLashes"
                     ],
                     [
                         "My Makeup Textures",
@@ -174,7 +174,16 @@
                     ],
                     [
                         "My Makeup Textures",
+                        "EyeShadow",
+                        "Eyeshadow - BluePurple"
+                    ],
+                    [
+                        "My Makeup Textures",
                         "Freckles"
+                    ],
+                    [
+                        "My Makeup Textures",
+                        "Lips"
                     ],
                     [
                         "My Makeup Textures",
@@ -597,6 +606,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "174",
+                    "uid": "1564811245718805:31039",
+                    "name": "Files\/File84.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "175",
+                    "uid": "1564812595593539:50045",
+                    "name": "Files\/File86.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -659,10 +684,10 @@
                 "40": "1563504116177893:59532",
                 "41": "1563504276228264:69961",
                 "42": "1563504663044052:10873",
-                "43": "1563505319407303:43306",
-                "44": "1563505569393333:56678",
-                "45": "1563505778018295:67319",
-                "46": "1563506767236211:117211"
+                "43": "1563505569393333:56678",
+                "44": "1563505778018295:67319",
+                "45": "1563506767236211:117211",
+                "46": "1564812612278596:51467"
             }
         },
         "LayerComponent": {
@@ -858,6 +883,22 @@
                 {
                     "k": "79",
                     "v": "Files\/File79.png"
+                },
+                {
+                    "k": "84",
+                    "v": "Files\/File84.png"
+                },
+                {
+                    "k": "85",
+                    "v": "Files\/File85.png"
+                },
+                {
+                    "k": "86",
+                    "v": "Files\/File86.png"
+                },
+                {
+                    "k": "87",
+                    "v": "Files\/File87.png"
                 }
             ]
         },
@@ -1053,6 +1094,18 @@
                     {
                         "k": "64",
                         "v": "My Makeup Textures\/Blush.png"
+                    },
+                    {
+                        "k": "65",
+                        "v": "GIPHY Imports"
+                    },
+                    {
+                        "k": "68",
+                        "v": "My Makeup Textures\/Eye.png"
+                    },
+                    {
+                        "k": "69",
+                        "v": "My Makeup Textures\/EyeShadow\/Eyeshadow - BluePurple.png"
                     }
                 ],
                 "hashes": [
@@ -1263,65 +1316,85 @@
                     {
                         "k": "64",
                         "v": "fb79b871be6af4d8ce59d519203bc1c9"
+                    },
+                    {
+                        "k": "65",
+                        "v": "59adb24ef3cdbe0297f05b395827453f"
+                    },
+                    {
+                        "k": "66",
+                        "v": "b3a42c942ef18fef6925ca4bcee4855e"
+                    },
+                    {
+                        "k": "67",
+                        "v": "2684ca2279fbb6565c982463583679d6"
+                    },
+                    {
+                        "k": "68",
+                        "v": "9e35fc88b208bf3f3b6c882f7ea97ad3"
+                    },
+                    {
+                        "k": "69",
+                        "v": "c2c876a7b249e46c633cdee43e09c7a0"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-18T23:31:29",
+                        "lastModified": "2019-07-20T23:06:40",
                         "name": "Public",
-                        "hash": "4e35f15c6967cb334a060a011c5eb387",
+                        "hash": "9d18297abf707d577dd29f8837fbcf38",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-18T22:12:43",
+                                "lastModified": "2019-07-20T23:06:24",
                                 "name": "Textures",
                                 "hash": "07105c41eb580dc4ad0eb3cc23e41353",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-08T14:04:28",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "echopark_diff.png",
                                         "hash": "311a76924cee5e58d7271449b3bd1b2e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-08T14:04:28",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "echopark_spec.png",
                                         "hash": "f52bc2d64df8998994aa36365eddbf6f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Face Substitution Points",
                                         "hash": "0316dc8f1fb77950f082899eee61586e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Lips.png",
                                                 "hash": "c3712766256cc2c114e8e8f697694047",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Eye.png",
                                                 "hash": "98b380616d4bfed1d0f4bc1dae59944a",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Full.png",
                                                 "hash": "11f4d5b93501561a110fa6434d320c06",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1330,7 +1403,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-08T14:04:28",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -1339,47 +1412,69 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-18T23:32:48",
-                                "name": "My Makeup Textures",
-                                "hash": "ba67db0c5a4d76d6db931894060a0e28",
+                                "lastModified": "2019-07-25T21:19:53",
+                                "name": "GIPHY Imports",
+                                "hash": "59adb24ef3cdbe0297f05b395827453f",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T22:08:30",
+                                        "lastModified": "2019-07-25T21:19:53",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-08-03T02:10:44",
+                                "name": "My Makeup Textures",
+                                "hash": "434b2829cb155f3de50cc1989df1250e",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "EyeLashes.png",
                                         "hash": "3731e52734cb94977049ee4bdcc7bdb5",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T23:08:13",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Freckles.png",
                                         "hash": "bc4acc734c43eb056f3cb481987d3319",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T23:04:29",
+                                        "lastModified": "2019-08-03T02:10:44",
                                         "name": "EyeShadow",
-                                        "hash": "69d50abed74e0237ec5c2810552ae28a",
+                                        "hash": "55928a63c5c4e78dbfe8302beb3783a1",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:07:27",
+                                                "lastModified": "2019-08-03T02:09:40",
+                                                "name": "Eyeshadow - BluePurple.png",
+                                                "hash": "c2c876a7b249e46c633cdee43e09c7a0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "EyeShadow - Purple.png",
                                                 "hash": "3c55247ea62b8b9ef94fb0cc333c7f59",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T23:03:26",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "EyeShadow - Pink.png",
                                                 "hash": "80012d998f588199bc2b20ab1a0830d2",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T23:03:50",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1388,55 +1483,62 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T23:30:47",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Blush.png",
                                         "hash": "fb79b871be6af4d8ce59d519203bc1c9",
                                         "children": ""
                                     },
                                     {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-08-03T01:47:07",
+                                        "name": "Eye.png",
+                                        "hash": "9e35fc88b208bf3f3b6c882f7ea97ad3",
+                                        "children": ""
+                                    },
+                                    {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:38:28",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Lips",
                                         "hash": "a8ded4a56b5e6ec99d3ebc91e418dda7",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:31:46",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Peach.png",
                                                 "hash": "899aa670fc46ec90df456d11bfa454bd",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:37:52",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Birkin Brown.png",
                                                 "hash": "e1a80ca4b487c6ebaf783063057b8eed",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:37:52",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Deep Purple.png",
                                                 "hash": "b7400c30ee407ab0265cbfe22c1ea568",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:37:52",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Plum Pop.png",
                                                 "hash": "c41eed13c04c891d1f803ab371e31192",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:37:52",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "Rouge.png",
                                                 "hash": "0b38c581b858b1a37308a5ae4f0dc018",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-18T22:32:02",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1445,7 +1547,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-18T22:12:47",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -1454,33 +1556,33 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-18T22:33:42",
+                                "lastModified": "2019-07-20T23:06:24",
                                 "name": "Face Paint Template [REMOVE_ME]",
                                 "hash": "e31a84f00515dc3d3ff07d7dfcf4fd60",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Paint",
                                         "hash": "e9b9f2148fae00aadada6f1015e87b6a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "paint.png",
                                                 "hash": "2f118712bba6583028996fc0c2486420",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "paint_lips.png",
                                                 "hash": "dfd7e5f0597cb26a02ad1d960b016843",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1489,34 +1591,34 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Flower",
                                         "hash": "0434cb110d1aed6e35a72bdccda9d95d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "flowers.png",
                                                 "hash": "e14237312b3bb7abbedc2134bdf55f33",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "flower_cheeks.png",
                                                 "hash": "a40ee5172258a770f833604756100e89",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "flower_lips.png",
                                                 "hash": "25b02f90d45fa85d25b0d5ec22c93381",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1525,34 +1627,34 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Dripping",
                                         "hash": "a9ce924b0f82560c131cf70b8f0b74e8",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "dripping.png",
                                                 "hash": "d62d8d2214c908b0de8492bb192106b8",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "dripping_lips.png",
                                                 "hash": "0e40f7e6e676928371c0485da4113638",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "dripping_cheeks.png",
                                                 "hash": "a8bbeb205ee118ae8a2238b3d17e7a88",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1561,41 +1663,41 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Bird",
                                         "hash": "3af705c25d977291a4648e10ff5a7947",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "bird.png",
                                                 "hash": "756ee50b55f2a8dfd96546f78caa9510",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "bird_cheeks.png",
                                                 "hash": "a8bbeb205ee118ae8a2238b3d17e7a88",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "bird_lips_1.png",
                                                 "hash": "7077c307c97eac06ac748600338d5484",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "bird_lips_2.png",
                                                 "hash": "0381b263eef4ee605d3d3b8d78aed401",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1604,41 +1706,41 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Swan",
                                         "hash": "9800ea9bf4c5a70102d7c6ee02e259a7",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "swan_eye_color.png",
                                                 "hash": "027c5785a7afa5e0225d8930b8297867",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "swan.png",
                                                 "hash": "97d2aa16a7c133c1312f46bc31496b9a",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "swan_cheeks.png",
                                                 "hash": "a8bbeb205ee118ae8a2238b3d17e7a88",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "swan_lips.png",
                                                 "hash": "700c853ad34480e6c8d973928d7d98a4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1647,34 +1749,34 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-18T22:12:43",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "Koi",
                                         "hash": "aa09255a1bd9dbf08d2a457d24809f82",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "koi.png",
                                                 "hash": "bb09e3e1c8c09f13e9bd555cfa7db133",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "koi_lips.png",
                                                 "hash": "3349e862d602cd97ce11343ab4db2bb4",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "koi_cheeks.png",
                                                 "hash": "a8bbeb205ee118ae8a2238b3d17e7a88",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-08T14:04:28",
+                                                "lastModified": "2019-07-20T23:06:24",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -1683,7 +1785,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-08T14:04:28",
+                                        "lastModified": "2019-07-20T23:06:24",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -1692,7 +1794,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-07-08T14:04:28",
+                                "lastModified": "2019-07-20T23:06:24",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -2332,6 +2434,19 @@
                                         "publicId": "59",
                                         "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Face Paint - My Makeup\/Public\/My Makeup Textures\/EyeShadow - Pink.png",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "Eyeshadow - BluePurple",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "175",
+                                        "dependency": "0",
+                                        "uid": "1564812595593539:50045",
+                                        "fileId": "86",
+                                        "originalId": "87",
+                                        "publicId": "69",
+                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/face_paint_photoshop_template\/Eye.png",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -2360,8 +2475,35 @@
                                 "publicId": "64",
                                 "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/Blush.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Eye",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "174",
+                                "dependency": "0",
+                                "uid": "1564811245718805:31039",
+                                "fileId": "84",
+                                "originalId": "85",
+                                "publicId": "68",
+                                "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/face_paint_photoshop_template\/Eye.png",
+                                "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "GIPHY Imports",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "65",
+                        "source": "",
+                        "additional": "",
+                        "resources": ""
                     }
                 ]
             }
@@ -2369,7 +2511,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1563503552733494:38983"
+                    "1564812612278596:51467"
                 ]
             }
         },
