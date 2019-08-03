@@ -8,4 +8,4 @@ http://bit.ly/MakeSnapLenses
 
 ## How to Download Workshop Files
 
-<img src="https://github.com/p-sun/LensStudioWorkshop/blob/master/ReadMeImages/HowToDownloadThis.png" width="1000">
+<img src="https://github.com/p-sun/LensStudioWorkshop/blob/master/ReadMeImages/HowToDownloadThis.png" width="800">
