@@ -3,7 +3,7 @@
     "document_id": "VE9YWbWdgNocNO0eJL2g",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
     "version": "14",
-    "lastChanged": "1564821653368",
+    "lastChanged": "1565491068636",
     "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
     "videoPreview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,7 +29,7 @@
             "collapsedList": [
                 [
                     [
-                        "Materials"
+                        "Beauty"
                     ],
                     [
                         "Materials",
@@ -1612,6 +1612,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "242",
+                    "uid": "1565490777308076:50661",
+                    "name": "Files\/File166.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1732,21 +1740,20 @@
                 "41": "1563573345307552:66986",
                 "42": "1563573345307721:66989",
                 "43": "1563573826058347:101287",
-                "44": "1563574010702969:122302",
-                "45": "1563574210264416:150368",
-                "46": "1563575463501137:206232",
-                "47": "1563575463510720:206327",
-                "48": "1563575463533053:206539",
-                "49": "1563576969913104:37485",
-                "50": "1563576975286804:40650",
-                "51": "1563577017542849:45652",
-                "52": "1563578249557522:87738",
-                "53": "1563578275553947:92003",
-                "54": "1563578303793537:99464",
-                "55": "1563579360453951:142152",
-                "56": "1563579678983031:156923",
-                "57": "1563579679005935:157135",
-                "58": "1563583241685919:842026"
+                "44": "1563574210264416:150368",
+                "45": "1563575463501137:206232",
+                "46": "1563575463510720:206327",
+                "47": "1563575463533053:206539",
+                "48": "1563576969913104:37485",
+                "49": "1563576975286804:40650",
+                "50": "1563577017542849:45652",
+                "51": "1563578249557522:87738",
+                "52": "1563578275553947:92003",
+                "53": "1563578303793537:99464",
+                "54": "1563579360453951:142152",
+                "55": "1563579678983031:156923",
+                "56": "1563579679005935:157135",
+                "57": "1565490777270546:50608"
             }
         },
         "LayerComponent": {
@@ -2278,6 +2285,14 @@
                 {
                     "k": "163",
                     "v": "Files\/File163.gif"
+                },
+                {
+                    "k": "166",
+                    "v": "Files\/File166.png"
+                },
+                {
+                    "k": "167",
+                    "v": "Files\/File167.png"
                 }
             ]
         },
@@ -2801,6 +2816,10 @@
                     {
                         "k": "172",
                         "v": "Textures\/Solid Textures\/redWaves.gif"
+                    },
+                    {
+                        "k": "174",
+                        "v": "Beauty.png"
                     }
                 ],
                 "hashes": [
@@ -3130,7 +3149,7 @@
                     },
                     {
                         "k": "110",
-                        "v": "90006c68bf51543f6fccc3efafdeb111"
+                        "v": "91d843c42cea70de7ca1fbca60d225ba"
                     },
                     {
                         "k": "111",
@@ -3334,15 +3353,19 @@
                     },
                     {
                         "k": "173",
-                        "v": "723d51f5caa044ce6a572916ebfd4cf8"
+                        "v": "02b1b37f184872867fe34aeefa39363a"
+                    },
+                    {
+                        "k": "174",
+                        "v": "7609adeacd57e32aadf28f471cdf8503"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-08-03T04:34:57",
+                        "lastModified": "2019-08-10T22:37:23",
                         "name": "Public",
-                        "hash": "6d78ab1844b648d8318cd2596840032e",
+                        "hash": "5f54b3062e797067e71ef0a28d483a7f",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4226,6 +4249,13 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2019-07-08T14:04:27",
+                                "name": "Beauty.png",
+                                "hash": "7609adeacd57e32aadf28f471cdf8503",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
                                 "lastModified": "2019-08-03T04:34:28",
                                 "name": "Textures",
@@ -4399,9 +4429,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-08-03T02:15:25",
+                                "lastModified": "2019-08-10T22:18:50",
                                 "name": "Materials",
-                                "hash": "92a0af01a03ad2364d46c9205bc814a1",
+                                "hash": "1e7337bf254c97561126d11f016bfe35",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4419,9 +4449,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-08-03T02:15:25",
+                                        "lastModified": "2019-08-10T22:18:50",
                                         "name": "Material for Post Effect - Edge Detection.lsmat",
-                                        "hash": "90006c68bf51543f6fccc3efafdeb111",
+                                        "hash": "91d843c42cea70de7ca1fbca60d225ba",
                                         "children": ""
                                     },
                                     {
@@ -6360,16 +6390,25 @@
                         "publicId": "144",
                         "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/Fonts\/VT323-Regular.ttf",
                         "additional": ""
+                    },
+                    {
+                        "name": "Beauty",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "242",
+                        "dependency": "0",
+                        "uid": "1565490777308076:50661",
+                        "fileId": "166",
+                        "originalId": "167",
+                        "publicId": "174",
+                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/Beauty.png",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1563583241685919:842026"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
