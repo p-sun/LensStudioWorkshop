@@ -1,26 +1,27 @@
 {
-    "lens_id": "00f04c0a-2fb4-4a4a-9b95-88105f1c79c0",
-    "document_id": "rOKaHhWh0NWpd3jeHFt7",
+    "lens_id": "",
+    "document_id": "uTTPYfJ7JeRxfZWHT3HB",
     "original_document_id": "rOKaHhWh0NWpd3jeHFt7",
-    "version": "14",
-    "lastChanged": "1564812812121",
-    "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/MakeupFacePaint\/icon.png",
-    "videoPreview": "",
+    "version": "20",
+    "lastChanged": "1576587650871",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
+    "isAutoSaved": "false",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -156,10 +157,6 @@
                     ],
                     [
                         "My Makeup Textures",
-                        "Eye"
-                    ],
-                    [
-                        "My Makeup Textures",
                         "EyeLashes"
                     ],
                     [
@@ -270,24 +267,45 @@
                     "1522715741066050:102946",
                     "1522715758731286:105644",
                     "1522715790065744:119842",
-                    "1563502253364332:6224"
+                    "1563502253364332:6224",
+                    "1563504116177619:59529"
                 ]
             ]
         },
         "MetaInfoUIComponent": {
             "icon_hash": "ecb4f5815d0fcd06081423691f816c7b",
             "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
             "hints": [
                 ""
             ],
             "lens": "Cute Freckles",
-            "camera": "2",
+            "applicability": "3",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
-            "is_back_camera": "false",
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
             "show_snap_ui": "true",
-            "show_sponsored_ui": "false"
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Images\/Patio.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 2.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Videos\/Patio.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            }
         },
         "InspectorUiComponent": {
             "collapsedList": [
@@ -312,8 +330,9 @@
                 ]
             ]
         },
-        "LayerUiComponent": {
-            "colorMap": ""
+        "UiComponent": {
+            "active_graph_material": "-1:-1",
+            "active_graph_pass": "-1"
         }
     },
     "model": {
@@ -608,14 +627,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "174",
-                    "uid": "1564811245718805:31039",
-                    "name": "Files\/File84.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "175",
                     "uid": "1564812595593539:50045",
                     "name": "Files\/File86.png",
@@ -630,6 +641,10 @@
         },
         "InspectorComponent": {
             "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
                 "FaceStretchVisual": {
                     "uidsToFeatureNamesWithIntensity": ""
                 },
@@ -697,12 +712,14 @@
                 {
                     "layerId": "0",
                     "layerName": "Default Layer",
-                    "layerMask": "1"
+                    "layerMask": "1",
+                    "colorCode": "20"
                 },
                 {
                     "layerId": "1",
                     "layerName": "Orthographic Layer",
-                    "layerMask": "1048576"
+                    "layerMask": "1048576",
+                    "colorCode": "21"
                 }
             ]
         },
@@ -883,10 +900,6 @@
                 {
                     "k": "79",
                     "v": "Files\/File79.png"
-                },
-                {
-                    "k": "84",
-                    "v": "Files\/File84.png"
                 },
                 {
                     "k": "85",
@@ -1098,10 +1111,6 @@
                     {
                         "k": "65",
                         "v": "GIPHY Imports"
-                    },
-                    {
-                        "k": "68",
-                        "v": "My Makeup Textures\/Eye.png"
                     },
                     {
                         "k": "69",
@@ -1341,13 +1350,13 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-20T23:06:40",
+                        "lastModified": "2019-12-17T07:59:33",
                         "name": "Public",
-                        "hash": "9d18297abf707d577dd29f8837fbcf38",
+                        "hash": "6dc617f0e5e70fa8f7c72187ff6f33ad",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-20T23:06:24",
+                                "lastModified": "2019-12-17T07:59:33",
                                 "name": "Textures",
                                 "hash": "07105c41eb580dc4ad0eb3cc23e41353",
                                 "children": [
@@ -1367,7 +1376,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Face Substitution Points",
                                         "hash": "0316dc8f1fb77950f082899eee61586e",
                                         "children": [
@@ -1412,7 +1421,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-25T21:19:53",
+                                "lastModified": "2019-12-17T07:59:33",
                                 "name": "GIPHY Imports",
                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                 "children": [
@@ -1427,9 +1436,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-08-03T02:10:44",
+                                "lastModified": "2019-12-17T07:59:33",
                                 "name": "My Makeup Textures",
-                                "hash": "434b2829cb155f3de50cc1989df1250e",
+                                "hash": "274a40e10dc73d970345089573d40bd3",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1447,7 +1456,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-08-03T02:10:44",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "EyeShadow",
                                         "hash": "55928a63c5c4e78dbfe8302beb3783a1",
                                         "children": [
@@ -1467,7 +1476,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-20T23:06:24",
+                                                "lastModified": "2019-08-03T14:42:20",
                                                 "name": "EyeShadow - Pink.png",
                                                 "hash": "80012d998f588199bc2b20ab1a0830d2",
                                                 "children": ""
@@ -1489,15 +1498,8 @@
                                         "children": ""
                                     },
                                     {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-08-03T01:47:07",
-                                        "name": "Eye.png",
-                                        "hash": "9e35fc88b208bf3f3b6c882f7ea97ad3",
-                                        "children": ""
-                                    },
-                                    {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Lips",
                                         "hash": "a8ded4a56b5e6ec99d3ebc91e418dda7",
                                         "children": [
@@ -1556,13 +1558,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-20T23:06:24",
+                                "lastModified": "2019-12-17T07:59:33",
                                 "name": "Face Paint Template [REMOVE_ME]",
                                 "hash": "e31a84f00515dc3d3ff07d7dfcf4fd60",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Paint",
                                         "hash": "e9b9f2148fae00aadada6f1015e87b6a",
                                         "children": [
@@ -1591,7 +1593,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Flower",
                                         "hash": "0434cb110d1aed6e35a72bdccda9d95d",
                                         "children": [
@@ -1627,7 +1629,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Dripping",
                                         "hash": "a9ce924b0f82560c131cf70b8f0b74e8",
                                         "children": [
@@ -1663,7 +1665,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Bird",
                                         "hash": "3af705c25d977291a4648e10ff5a7947",
                                         "children": [
@@ -1706,7 +1708,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Swan",
                                         "hash": "9800ea9bf4c5a70102d7c6ee02e259a7",
                                         "children": [
@@ -1749,7 +1751,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-20T23:06:24",
+                                        "lastModified": "2019-12-17T07:59:33",
                                         "name": "Koi",
                                         "hash": "aa09255a1bd9dbf08d2a457d24809f82",
                                         "children": [
@@ -2311,9 +2313,9 @@
                                 "dependency": "0",
                                 "uid": "1563502402762804:15441",
                                 "fileId": "27",
-                                "originalId": "28",
+                                "originalId": "18446744073709551615",
                                 "publicId": "36",
-                                "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Face Paint  - EyeLashes Shadow\/Public\/My Face Paiint Textures\/EyeLashes.png",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -2337,9 +2339,9 @@
                                         "dependency": "0",
                                         "uid": "1563503532613446:36967",
                                         "fileId": "49",
-                                        "originalId": "50",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "48",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Face Paint - My Makeup\/Public\/My Makeup Textures\/Lips\/Peach.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2350,9 +2352,9 @@
                                         "dependency": "0",
                                         "uid": "1563503908843996:52269",
                                         "fileId": "61",
-                                        "originalId": "62",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "54",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/My Makeup Exports\/Birkin Brown.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2363,9 +2365,9 @@
                                         "dependency": "0",
                                         "uid": "1563503908871853:52281",
                                         "fileId": "63",
-                                        "originalId": "64",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "55",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/My Makeup Exports\/Deep Purple.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2376,9 +2378,9 @@
                                         "dependency": "0",
                                         "uid": "1563503908936177:52409",
                                         "fileId": "65",
-                                        "originalId": "66",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "56",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/My Makeup Exports\/Plum Pop.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2389,9 +2391,9 @@
                                         "dependency": "0",
                                         "uid": "1563503908971032:52489",
                                         "fileId": "67",
-                                        "originalId": "68",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "57",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/My Makeup Exports\/Rouge.png",
+                                        "source": "",
                                         "additional": ""
                                     }
                                 ]
@@ -2417,9 +2419,9 @@
                                         "dependency": "0",
                                         "uid": "1563502402809840:15453",
                                         "fileId": "29",
-                                        "originalId": "30",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "37",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Face Paint  - EyeLashes Shadow\/Public\/My Face Paiint Textures\/EyeShadow.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2430,9 +2432,9 @@
                                         "dependency": "0",
                                         "uid": "1563505407145871:45558",
                                         "fileId": "71",
-                                        "originalId": "72",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "59",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Face Paint - My Makeup\/Public\/My Makeup Textures\/EyeShadow - Pink.png",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -2443,9 +2445,9 @@
                                         "dependency": "0",
                                         "uid": "1564812595593539:50045",
                                         "fileId": "86",
-                                        "originalId": "87",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "69",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/face_paint_photoshop_template\/Eye.png",
+                                        "source": "",
                                         "additional": ""
                                     }
                                 ]
@@ -2458,9 +2460,9 @@
                                 "dependency": "0",
                                 "uid": "1563505728408497:60513",
                                 "fileId": "73",
-                                "originalId": "74",
+                                "originalId": "18446744073709551615",
                                 "publicId": "61",
-                                "source": "\/Users\/psun\/Desktop\/creckles.png",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -2471,22 +2473,9 @@
                                 "dependency": "0",
                                 "uid": "1563507054616531:131056",
                                 "fileId": "78",
-                                "originalId": "79",
+                                "originalId": "18446744073709551615",
                                 "publicId": "64",
-                                "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/Blush.png",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Eye",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "174",
-                                "dependency": "0",
-                                "uid": "1564811245718805:31039",
-                                "fileId": "84",
-                                "originalId": "85",
-                                "publicId": "68",
-                                "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/2DAssets\/face_paint_photoshop_template\/Eye.png",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -2534,7 +2523,9 @@
             "17": "",
             "18": "",
             "19": "",
-            "20": ""
+            "20": "",
+            "22": "",
+            "23": ""
         },
         "ObjectPrefabController": {
             "state": {

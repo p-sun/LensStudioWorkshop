@@ -1,26 +1,27 @@
 {
-    "lens_id": "f127a48e-f84c-4d0c-af8e-56f4c6f88fdb",
-    "document_id": "aQZrPGIDjwfdx8WaW9Ng",
+    "lens_id": "",
+    "document_id": "rqdkgKURXTNosq5K6XXT",
     "original_document_id": "Jt1pma-PtRoQCsJ9WqVA",
-    "version": "14",
-    "lastChanged": "1563512095410",
-    "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Particles - HandWaterParticles\/icon.png",
-    "videoPreview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/Particles - HandWaterParticles\/preview.mp4",
+    "version": "20",
+    "lastChanged": "1576587845207",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
+    "isAutoSaved": "false",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -115,13 +116,32 @@
                 ""
             ],
             "lens": "Blue Smoke",
-            "camera": "2",
+            "applicability": "3",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
-            "is_back_camera": "true",
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "1"
+            },
             "show_snap_ui": "true",
-            "show_sponsored_ui": "false"
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Images\/Patio.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 2.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Videos\/Patio.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            }
         },
         "InspectorUiComponent": {
             "collapsedList": [
@@ -132,13 +152,9 @@
                 ]
             ]
         },
-        "LayerUiComponent": {
-            "colorMap": [
-                {
-                    "k": "0",
-                    "v": "20"
-                }
-            ]
+        "UiComponent": {
+            "active_graph_material": "-1:-1",
+            "active_graph_pass": "-1"
         }
     },
     "model": {
@@ -231,6 +247,10 @@
         },
         "InspectorComponent": {
             "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
                 "FaceStretchVisual": {
                     "uidsToFeatureNamesWithIntensity": ""
                 },
@@ -274,12 +294,14 @@
                 {
                     "layerId": "0",
                     "layerName": "Default Layer",
-                    "layerMask": "1"
+                    "layerMask": "1",
+                    "colorCode": "20"
                 },
                 {
                     "layerId": "1",
                     "layerName": "Orthographic Layer",
-                    "layerMask": "1048576"
+                    "layerMask": "1048576",
+                    "colorCode": "21"
                 }
             ]
         },
@@ -332,6 +354,14 @@
                 {
                     "k": "19",
                     "v": "Files\/File19.lsmat"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.lsmat"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.lsmat"
                 }
             ]
         },
@@ -440,7 +470,7 @@
                     },
                     {
                         "k": "15",
-                        "v": "3c4092cdb660a3cc821ed3a46fe6248d"
+                        "v": "7104619d82b30b7067a7c60dee3b7ee7"
                     },
                     {
                         "k": "16",
@@ -556,39 +586,39 @@
                     },
                     {
                         "k": "527",
-                        "v": "805575b9fce512b45b2e3a8b3abadac1"
+                        "v": "6630a337b920208b68888420062a4ba3"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-07-17T02:15:04",
+                        "lastModified": "2019-12-17T08:03:25",
                         "name": "Public",
-                        "hash": "d345aa4b593e93889e4208501e91decb",
+                        "hash": "fb7454a2669543e563117913e494d353",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-17T00:48:24",
+                                "lastModified": "2019-12-17T08:03:25",
                                 "name": "ParticleMaterials [EDIT_ME]",
-                                "hash": "9d1418008c86f54c7fdf66a2821dd63c",
+                                "hash": "b6d4b9bcec85fdba7eaea3ba49700860",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-17T02:14:49",
+                                        "lastModified": "2019-12-17T08:03:25",
                                         "name": "World",
-                                        "hash": "12cf81cee7c58d37babb9a2b7d878efb",
+                                        "hash": "957117fa9c67bd0cec32023d9f373057",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T00:54:51",
+                                                "lastModified": "2019-12-17T08:03:58",
                                                 "name": "Smoke",
-                                                "hash": "81dac93d2bba9994c5a72f7ee04655c8",
+                                                "hash": "51e8a82d44dfd71789dabf628869e59c",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T00:54:51",
+                                                        "lastModified": "2019-12-17T08:03:58",
                                                         "name": "GPU-Particle_Preset_Smoke.lsmat",
-                                                        "hash": "805575b9fce512b45b2e3a8b3abadac1",
+                                                        "hash": "6630a337b920208b68888420062a4ba3",
                                                         "children": ""
                                                     },
                                                     {
@@ -602,15 +632,15 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-17T02:14:49",
+                                                "lastModified": "2019-12-17T08:03:58",
                                                 "name": "Fountain_Cartoon",
-                                                "hash": "73dbc6cd4b3845459f3cf552b8bd1f43",
+                                                "hash": "d78fe86043b6b76f64f74f209d4cae11",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-17T00:31:56",
+                                                        "lastModified": "2019-12-17T08:03:58",
                                                         "name": "particle_fountain_splash [EDIT_ME].lsmat",
-                                                        "hash": "3c4092cdb660a3cc821ed3a46fe6248d",
+                                                        "hash": "7104619d82b30b7067a7c60dee3b7ee7",
                                                         "children": ""
                                                     },
                                                     {
@@ -649,13 +679,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-17T00:48:24",
+                                "lastModified": "2019-12-17T08:03:25",
                                 "name": "SceneResources",
                                 "hash": "deced35555999891b938d280a2bfb02e",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-17T00:48:24",
+                                        "lastModified": "2019-12-17T08:03:25",
                                         "name": "Textures",
                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                         "children": [
@@ -686,13 +716,13 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-17T00:48:24",
+                                "lastModified": "2019-12-17T08:03:25",
                                 "name": "ParticleResources",
                                 "hash": "a60e577aa68006ec63caa1ecf39ce7a6",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-17T01:40:17",
+                                        "lastModified": "2019-12-17T08:03:25",
                                         "name": "Textures",
                                         "hash": "47ab621d6e2e88cbdb02f34a5e6b5950",
                                         "children": [
@@ -728,7 +758,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-17T00:48:24",
+                                        "lastModified": "2019-12-17T08:03:25",
                                         "name": "Meshes",
                                         "hash": "d7a591cced5cae3eff4182207df71439",
                                         "children": [
@@ -857,7 +887,7 @@
                                         "dependency": "0",
                                         "uid": "1563342017736888:344747",
                                         "fileId": "14",
-                                        "originalId": "15",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "522",
                                         "source": "",
                                         "additional": ""
@@ -870,7 +900,7 @@
                                         "dependency": "0",
                                         "uid": "1563342017744580:344762",
                                         "fileId": "16",
-                                        "originalId": "17",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "523",
                                         "source": "",
                                         "additional": ""
@@ -982,7 +1012,7 @@
                                                 "dependency": "0",
                                                 "uid": "1563337803740449:232123",
                                                 "fileId": "9",
-                                                "originalId": "10",
+                                                "originalId": "20",
                                                 "publicId": "15",
                                                 "source": "",
                                                 "additional": ""
@@ -1010,7 +1040,7 @@
                                                 "dependency": "0",
                                                 "uid": "1563342017751460:344777",
                                                 "fileId": "18",
-                                                "originalId": "19",
+                                                "originalId": "21",
                                                 "publicId": "527",
                                                 "source": "",
                                                 "additional": ""
@@ -1044,7 +1074,7 @@
                         "fileId": "6",
                         "originalId": "18446744073709551615",
                         "publicId": "13",
-                        "source": "\/Users\/psun\/Downloads\/AttachToObjectTracking.js",
+                        "source": "",
                         "additional": ""
                     }
                 ]
@@ -1084,7 +1114,9 @@
             "17": "",
             "18": "",
             "19": "",
-            "20": ""
+            "20": "",
+            "22": "",
+            "23": ""
         },
         "ObjectPrefabController": {
             "state": {
