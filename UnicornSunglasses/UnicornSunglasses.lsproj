@@ -1,26 +1,27 @@
 {
-    "lens_id": "93b95b3f-9971-4db3-9270-d3d48eba2de0",
-    "document_id": "VE9YWbWdgNocNO0eJL2g",
+    "lens_id": "",
+    "document_id": "QpZAONKJZbcZTv_F3xsB",
     "original_document_id": "VE9YWbWdgNocNO0eJL2g",
-    "version": "14",
-    "lastChanged": "1565491068636",
-    "preview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/icon.png",
-    "videoPreview": "\/Users\/psun\/Documents\/Dev\/LensStudio\/LensStudioWorkshop\/UnicornSunglasses\/preview.mp4",
+    "version": "20",
+    "lastChanged": "1576587523998",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
+    "isAutoSaved": "false",
     "studioVersion": {
         "createdWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
             "major": "2",
-            "minor": "0",
-            "patch": "1",
+            "minor": "3",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -773,13 +774,32 @@
                 ""
             ],
             "lens": "Trippy Unicorn",
-            "camera": "2",
+            "applicability": "3",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
-            "is_back_camera": "false",
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
             "show_snap_ui": "false",
-            "show_sponsored_ui": "false"
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Images\/Patio.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 2.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:PreviewPresets\/Videos\/Patio.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:PreviewPresets\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:PreviewPresets\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            }
         },
         "InspectorUiComponent": {
             "collapsedList": [
@@ -790,8 +810,9 @@
                 ]
             ]
         },
-        "LayerUiComponent": {
-            "colorMap": ""
+        "UiComponent": {
+            "active_graph_material": "-1:-1",
+            "active_graph_pass": "-1"
         }
     },
     "model": {
@@ -1628,6 +1649,10 @@
         },
         "InspectorComponent": {
             "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
                 "FaceStretchVisual": {
                     "uidsToFeatureNamesWithIntensity": ""
                 },
@@ -1763,12 +1788,14 @@
                 {
                     "layerId": "0",
                     "layerName": "Default Layer",
-                    "layerMask": "1"
+                    "layerMask": "1",
+                    "colorCode": "20"
                 },
                 {
                     "layerId": "1",
                     "layerName": "Orthographic Layer",
-                    "layerMask": "1048576"
+                    "layerMask": "1048576",
+                    "colorCode": "21"
                 }
             ]
         },
@@ -2293,6 +2320,62 @@
                 {
                     "k": "167",
                     "v": "Files\/File167.png"
+                },
+                {
+                    "k": "168",
+                    "v": "Files\/File168.lsmat"
+                },
+                {
+                    "k": "169",
+                    "v": "Files\/File169.lsmat"
+                },
+                {
+                    "k": "170",
+                    "v": "Files\/File170.lsmat"
+                },
+                {
+                    "k": "171",
+                    "v": "Files\/File171.lsmat"
+                },
+                {
+                    "k": "172",
+                    "v": "Files\/File172.lsmat"
+                },
+                {
+                    "k": "173",
+                    "v": "Files\/File173.lsmat"
+                },
+                {
+                    "k": "174",
+                    "v": "Files\/File174.lsmat"
+                },
+                {
+                    "k": "175",
+                    "v": "Files\/File175.lsmat"
+                },
+                {
+                    "k": "176",
+                    "v": "Files\/File176.lsmat"
+                },
+                {
+                    "k": "177",
+                    "v": "Files\/File177.lsmat"
+                },
+                {
+                    "k": "178",
+                    "v": "Files\/File178.lsmat"
+                },
+                {
+                    "k": "179",
+                    "v": "Files\/File179.lsmat"
+                },
+                {
+                    "k": "180",
+                    "v": "Files\/File180.lsmat"
+                },
+                {
+                    "k": "181",
+                    "v": "Files\/File181.lsmat"
                 }
             ]
         },
@@ -2679,15 +2762,15 @@
                     },
                     {
                         "k": "107",
-                        "v": "Textures\/UnicornHorn.gif"
+                        "v": "Textures\/UnicornHorn"
                     },
                     {
                         "k": "108",
-                        "v": "Textures\/Barf.gif"
+                        "v": "Textures\/Barf"
                     },
                     {
                         "k": "109",
-                        "v": "Textures\/UnicornDance.gif"
+                        "v": "Textures\/UnicornDance"
                     },
                     {
                         "k": "110",
@@ -2711,7 +2794,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "Textures\/SmallBearWithHeart.gif"
+                        "v": "Textures\/SmallBearWithHeart"
                     },
                     {
                         "k": "129",
@@ -2791,7 +2874,7 @@
                     },
                     {
                         "k": "163",
-                        "v": "Textures\/Solid Textures\/trippy.gif"
+                        "v": "Textures\/Solid Textures\/trippy"
                     },
                     {
                         "k": "166",
@@ -2803,19 +2886,19 @@
                     },
                     {
                         "k": "169",
-                        "v": "Textures\/Solid Textures\/butterfly.gif"
+                        "v": "Textures\/Solid Textures\/butterfly"
                     },
                     {
                         "k": "170",
-                        "v": "Textures\/Solid Textures\/mercury.gif"
+                        "v": "Textures\/Solid Textures\/mercury"
                     },
                     {
                         "k": "171",
-                        "v": "Textures\/Solid Textures\/pinkHexagon.gif"
+                        "v": "Textures\/Solid Textures\/pinkHexagon"
                     },
                     {
                         "k": "172",
-                        "v": "Textures\/Solid Textures\/redWaves.gif"
+                        "v": "Textures\/Solid Textures\/redWaves"
                     },
                     {
                         "k": "174",
@@ -2825,39 +2908,39 @@
                 "hashes": [
                     {
                         "k": "3",
-                        "v": "175d88706f4d6ee7b2eb7457520d5443"
+                        "v": "ef76e923ed3ee59f1d76b7d622285734"
                     },
                     {
                         "k": "5",
-                        "v": "4354ed1881af54b50b40fa4494d02209"
+                        "v": "9fc8f7baf8c6512b98904b8793d48e28"
                     },
                     {
                         "k": "6",
-                        "v": "92cbd9fb86e902d997e532e20aa5ce8f"
+                        "v": "60c7686a98e0cccc8ae61f19c5bc0366"
                     },
                     {
                         "k": "8",
-                        "v": "230454380039e9cae40dd5be88b1395c"
+                        "v": "bbcca18331c7f52f78314e98923a03e9"
                     },
                     {
                         "k": "9",
-                        "v": "3dfcf007a248358d66861d855fdc42f4"
+                        "v": "6d6f1cc09ce86639b06fdde42ccac7e4"
                     },
                     {
                         "k": "10",
-                        "v": "a49da6d22c6de508709ef9b564eae792"
+                        "v": "eba258dd8c1dc46e1a13e8fae55b0f7d"
                     },
                     {
                         "k": "11",
-                        "v": "969c1c361d5c34b48a44091f4e6b9834"
+                        "v": "c21ad520ccbe9845d5070992ce54411c"
                     },
                     {
                         "k": "12",
-                        "v": "3b510655ececd0874c7581f5e1bd6e81"
+                        "v": "3ed4226dd539552341a879f15c87b168"
                     },
                     {
                         "k": "13",
-                        "v": "8a5ca454aaaaaf565a5333c420c16895"
+                        "v": "33022e4500a88a69242d342adb4347d7"
                     },
                     {
                         "k": "16",
@@ -3137,19 +3220,19 @@
                     },
                     {
                         "k": "107",
-                        "v": "28274e878160503e96379f6b0c67849d"
+                        "v": "2e55e52f2d9197821bd2781a63b6c011"
                     },
                     {
                         "k": "108",
-                        "v": "0e4f629a5330a780b551dd4f86359054"
+                        "v": "840d121d1c56243976b53fbcccfd0268"
                     },
                     {
                         "k": "109",
-                        "v": "cfb6b222073ae03a2af9d6b843a9e87f"
+                        "v": "172e3a51a06f0132e6a2799522f31123"
                     },
                     {
                         "k": "110",
-                        "v": "91d843c42cea70de7ca1fbca60d225ba"
+                        "v": "d60230732d1a3c4a1396639349d43d9a"
                     },
                     {
                         "k": "111",
@@ -3169,7 +3252,7 @@
                     },
                     {
                         "k": "115",
-                        "v": "0544dbf22ca1f661c10ad1b5df3ddb1a"
+                        "v": "a4e200558ccf01bd6da86847bbb4a9c0"
                     },
                     {
                         "k": "116",
@@ -3209,11 +3292,11 @@
                     },
                     {
                         "k": "128",
-                        "v": "8b77e29ce4f29ab1fb4e6970a3608d13"
+                        "v": "dd734f3457e36875e223463c5c031145"
                     },
                     {
                         "k": "129",
-                        "v": "107403ac888a366bdbe15ca3f721342d"
+                        "v": "47dee19defca5c51d1495029f44cb872"
                     },
                     {
                         "k": "131",
@@ -3245,7 +3328,7 @@
                     },
                     {
                         "k": "139",
-                        "v": "33d3b16558f250967fa6f0cbe3b909f3"
+                        "v": "4363c18788c986a69a2f222e4225dff7"
                     },
                     {
                         "k": "141",
@@ -3253,7 +3336,7 @@
                     },
                     {
                         "k": "142",
-                        "v": "94de42b7cb879e1d627d6c79a7f3ae10"
+                        "v": "06bb3e38e514e17b7c54ea24c4ba1447"
                     },
                     {
                         "k": "143",
@@ -3325,7 +3408,7 @@
                     },
                     {
                         "k": "163",
-                        "v": "723d51f5caa044ce6a572916ebfd4cf8"
+                        "v": "62abf2af4e135c0c0dc10d246ee421df"
                     },
                     {
                         "k": "164",
@@ -3337,19 +3420,19 @@
                     },
                     {
                         "k": "169",
-                        "v": "ec62fb1846194c97d9c3ef5eca75b01f"
+                        "v": "d2fb13fbe1ec2e9a432a59a8cff25e4e"
                     },
                     {
                         "k": "170",
-                        "v": "001f9ab22d67a894440c87fc8f9128b8"
+                        "v": "b7a9249c22d7b4617fd9cb29af4b8ca0"
                     },
                     {
                         "k": "171",
-                        "v": "160616aba2992020f5b343bfbe446dec"
+                        "v": "8043a03aef3384b0ffd6234f874a89ae"
                     },
                     {
                         "k": "172",
-                        "v": "beab94141c371a47c1ed8472897fd856"
+                        "v": "138d7384ece478f09054b3d4dd31e0da"
                     },
                     {
                         "k": "173",
@@ -3363,25 +3446,25 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-08-10T22:37:23",
+                        "lastModified": "2019-12-17T07:57:08",
                         "name": "Public",
-                        "hash": "5f54b3062e797067e71ef0a28d483a7f",
+                        "hash": "aaa2d0b56de730cc8572e5f92f5d7bac",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T18:26:09",
+                                "lastModified": "2019-12-17T07:57:08",
                                 "name": "Sunglasses",
-                                "hash": "b3f6ffc8a78d40e055e99afb8b1465f4",
+                                "hash": "330d60e5cc0de9ee354202aaee68b6a6",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T18:09:39",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Textures",
                                         "hash": "dfe47e8319e31618b1e69efb089c7b06",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "logo_image",
                                                 "hash": "b06b253906f9dbf0fa2993b571b5977b",
                                                 "children": [
@@ -3403,7 +3486,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "FramesTextures",
                                                 "hash": "9c2e42ec3040a99aada941a74b731422",
                                                 "children": [
@@ -3481,7 +3564,7 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "LensReflectionParams",
                                                 "hash": "66855020b7fb65c86d003a4cbacb5a8d",
                                                 "children": [
@@ -3589,20 +3672,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T23:12:38",
+                                        "lastModified": "2019-12-17T07:57:41",
                                         "name": "Materials",
-                                        "hash": "7aa1c71036b00f9ea839b15e1e1e7a9a",
+                                        "hash": "856e22c5967b7787b71a2498d8c51897",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "lens_material.lsmat",
-                                                "hash": "969c1c361d5c34b48a44091f4e6b9834",
+                                                "hash": "c21ad520ccbe9845d5070992ce54411c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T23:12:38",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "New Folder",
                                                 "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                 "children": [
@@ -3617,22 +3700,22 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "Aviator",
-                                                "hash": "bf1984d2b381627b66dbcfc45d6f5597",
+                                                "hash": "9d73c717805dc1301f5795159dd8a193",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T18:12:31",
+                                                        "lastModified": "2019-12-17T07:57:41",
                                                         "name": "aviator_rubber.lsmat",
-                                                        "hash": "4354ed1881af54b50b40fa4494d02209",
+                                                        "hash": "9fc8f7baf8c6512b98904b8793d48e28",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T18:12:31",
+                                                        "lastModified": "2019-12-17T07:57:41",
                                                         "name": "aviator_screw.lsmat",
-                                                        "hash": "92cbd9fb86e902d997e532e20aa5ce8f",
+                                                        "hash": "60c7686a98e0cccc8ae61f19c5bc0366",
                                                         "children": ""
                                                     },
                                                     {
@@ -3646,15 +3729,15 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "Nerd",
-                                                "hash": "ae0995ddf5b39fe6e9b4a99dbe2315e0",
+                                                "hash": "5e54dc7102724705422af99009611548",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T18:12:31",
+                                                        "lastModified": "2019-12-17T07:57:41",
                                                         "name": "nerd_screw.lsmat",
-                                                        "hash": "175d88706f4d6ee7b2eb7457520d5443",
+                                                        "hash": "ef76e923ed3ee59f1d76b7d622285734",
                                                         "children": ""
                                                     },
                                                     {
@@ -3668,43 +3751,43 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "occluder.lsmat",
-                                                "hash": "a49da6d22c6de508709ef9b564eae792",
+                                                "hash": "eba258dd8c1dc46e1a13e8fae55b0f7d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "frame_material.lsmat",
-                                                "hash": "3b510655ececd0874c7581f5e1bd6e81",
+                                                "hash": "3ed4226dd539552341a879f15c87b168",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2019-07-19T23:12:20",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "lens_material_custom.lsmat",
-                                                "hash": "8a5ca454aaaaaf565a5333c420c16895",
+                                                "hash": "33022e4500a88a69242d342adb4347d7",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T18:12:31",
+                                                "lastModified": "2019-12-17T07:57:41",
                                                 "name": "Round",
-                                                "hash": "fece9e42cd30f4e066e52c477fe6a1b6",
+                                                "hash": "9ed5b9a7deb6f70828a57eae3f8f3ace",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T18:12:31",
+                                                        "lastModified": "2019-12-17T07:57:41",
                                                         "name": "round_screw.lsmat",
-                                                        "hash": "3dfcf007a248358d66861d855fdc42f4",
+                                                        "hash": "6d6f1cc09ce86639b06fdde42ccac7e4",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2019-07-19T18:12:31",
+                                                        "lastModified": "2019-12-17T07:57:41",
                                                         "name": "round_rubber.lsmat",
-                                                        "hash": "230454380039e9cae40dd5be88b1395c",
+                                                        "hash": "bbcca18331c7f52f78314e98923a03e9",
                                                         "children": ""
                                                     },
                                                     {
@@ -3727,7 +3810,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T17:54:34",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Scripts",
                                         "hash": "25b3a0254c59448857b2b5cb924f8ac1",
                                         "children": [
@@ -3756,19 +3839,19 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T17:54:34",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Geometry",
                                         "hash": "97114261fdef621a8007d7699f05b7e7",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "glasses_round",
                                                 "hash": "6f44f646763cfd4267a08b56a37e24b8",
                                                 "children": [
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Meshes",
                                                         "hash": "356184084ea35ac4cbed06dca9998ee4",
                                                         "children": [
@@ -3839,7 +3922,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Animations",
                                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                         "children": [
@@ -3863,13 +3946,13 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "glasses_cat",
                                                 "hash": "16636a601f99378bce24dd96d7ce2437",
                                                 "children": [
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Meshes",
                                                         "hash": "c5a5c3d210b1358afedeb07f84607e89",
                                                         "children": [
@@ -3933,7 +4016,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Animations",
                                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                         "children": [
@@ -3957,13 +4040,13 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "glasses_aviator",
                                                 "hash": "a20318db7520265a77fb7a4a5ba5160f",
                                                 "children": [
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Meshes",
                                                         "hash": "c2782eac53dc98bca7330a31db71ea01",
                                                         "children": [
@@ -4034,7 +4117,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Animations",
                                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                         "children": [
@@ -4058,13 +4141,13 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "glasses_nerd",
                                                 "hash": "5a7f0a2d190105c3a951f9e2bfeddb9d",
                                                 "children": [
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Meshes",
                                                         "hash": "07f8c6e78ec0e2ea669ecdd40f54ebcb",
                                                         "children": [
@@ -4114,7 +4197,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Animations",
                                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                         "children": [
@@ -4145,13 +4228,13 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2019-07-19T17:54:34",
+                                                "lastModified": "2019-12-17T07:57:08",
                                                 "name": "glasses_hearts_new",
                                                 "hash": "2f1bf0d48ca2f7aea28f59b6787e0111",
                                                 "children": [
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Meshes",
                                                         "hash": "bd4bc9f96638b8d5cce319cc75694e05",
                                                         "children": [
@@ -4208,7 +4291,7 @@
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2019-07-19T17:54:34",
+                                                        "lastModified": "2019-12-17T07:57:08",
                                                         "name": "Animations",
                                                         "hash": "59adb24ef3cdbe0297f05b395827453f",
                                                         "children": [
@@ -4257,24 +4340,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-08-03T04:34:28",
+                                "lastModified": "2019-12-17T07:57:08",
                                 "name": "Textures",
-                                "hash": "a43d0191b5f4aa9ffdeb09b4d391ce47",
+                                "hash": "1d028da1ad51b343b5570848f30b0350",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:00:21",
-                                        "name": "Barf.gif",
-                                        "hash": "0e4f629a5330a780b551dd4f86359054",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:01:23",
-                                        "name": "UnicornDance.gif",
-                                        "hash": "cfb6b222073ae03a2af9d6b843a9e87f",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2019-07-17T04:49:46",
@@ -4284,44 +4353,119 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-08-03T04:34:13",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Solid Textures",
-                                        "hash": "23cb4724d4abcb3b5deffa3760168700",
+                                        "hash": "e7cc2a075d7b88a83dbe73c63bfdf03a",
                                         "children": [
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-08-02T21:37:37",
-                                                "name": "redWaves.gif",
-                                                "hash": "beab94141c371a47c1ed8472897fd856",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2019-12-17T07:57:08",
+                                                "name": "butterfly",
+                                                "hash": "d2fb13fbe1ec2e9a432a59a8cff25e4e",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "animation.t3d",
+                                                        "hash": "6ef6bc18ffcf135d4bc7bff8589ef281",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "butterfly_0.png",
+                                                        "hash": "f23110e5870f9d59120ffd4dfd59ee22",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-08-02T21:35:56",
-                                                "name": "mercury.gif",
-                                                "hash": "001f9ab22d67a894440c87fc8f9128b8",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2019-12-17T07:57:08",
+                                                "name": "mercury",
+                                                "hash": "b7a9249c22d7b4617fd9cb29af4b8ca0",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "animation.t3d",
+                                                        "hash": "1fd5cfdb4f15a1e1b9c9af773ce61f7e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "mercury_0.png",
+                                                        "hash": "1cd614eec80381207a3b5d1c63ba7b7e",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-08-02T21:24:56",
-                                                "name": "pinkHexagon.gif",
-                                                "hash": "160616aba2992020f5b343bfbe446dec",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2019-12-17T07:57:08",
+                                                "name": "redWaves",
+                                                "hash": "138d7384ece478f09054b3d4dd31e0da",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "redWaves_0.png",
+                                                        "hash": "26d9344102195b1d8f952e004804c759",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "animation.t3d",
+                                                        "hash": "42fd1724b4b7ef48216c1ec97fc6d30e",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-08-02T21:27:15",
-                                                "name": "butterfly.gif",
-                                                "hash": "ec62fb1846194c97d9c3ef5eca75b01f",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2019-12-17T07:57:08",
+                                                "name": "trippy",
+                                                "hash": "62abf2af4e135c0c0dc10d246ee421df",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "trippy copy_0.png",
+                                                        "hash": "047bd760e14b6a6ab0d7b3a4310145ad",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "animation.t3d",
+                                                        "hash": "4a4a11f1a5e199b8a0d3d1a202b8cb1f",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2019-07-20T01:08:11",
-                                                "name": "trippy.gif",
-                                                "hash": "723d51f5caa044ce6a572916ebfd4cf8",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2019-12-17T07:57:08",
+                                                "name": "pinkHexagon",
+                                                "hash": "8043a03aef3384b0ffd6234f874a89ae",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "pinkHexagon_0.png",
+                                                        "hash": "33b403cd88b3e4509d544bbb1eaef16c",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2019-12-17T07:56:19",
+                                                        "name": "animation.t3d",
+                                                        "hash": "ef73a824fbde5d585c0b9dbbd8b81d72",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "isFolder": "false",
@@ -4341,7 +4485,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-07-19T20:21:06",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Environment Map",
                                         "hash": "5d0daf4be82fee50df678f1d3a4975ad",
                                         "children": [
@@ -4370,7 +4514,73 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2019-08-03T04:39:33",
+                                        "lastModified": "2019-12-17T07:57:08",
+                                        "name": "Barf",
+                                        "hash": "840d121d1c56243976b53fbcccfd0268",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "animation.t3d",
+                                                "hash": "7ab434208ceab3e7586c4b4df582e5b0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "rainbow love Sticker_0.png",
+                                                "hash": "c5bf5f2318bdc6bd7c95b9910ec95721",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2019-12-17T07:57:08",
+                                        "name": "UnicornHorn",
+                                        "hash": "2e55e52f2d9197821bd2781a63b6c011",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "animation.t3d",
+                                                "hash": "905e7f9edfe409f07e2380b3fde2f45a",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "sticker rainbow by Stefanie Shank_0.png",
+                                                "hash": "a7f3d2cfa1d6d2c8391ffadd01d51a24",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2019-12-17T07:57:08",
+                                        "name": "SmallBearWithHeart",
+                                        "hash": "dd734f3457e36875e223463c5c031145",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "animation.t3d",
+                                                "hash": "481d988f30cb9a22584396fe74d0c6b1",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "romantic i love you Sticker_0.png",
+                                                "hash": "222915c236614e3f70d27216ab58a2e8",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2019-12-17T07:57:08",
                                         "name": "Solid Colors",
                                         "hash": "7177722356546fc5e58a557305b940ce",
                                         "children": [
@@ -4405,18 +4615,26 @@
                                         ]
                                     },
                                     {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-14T13:10:20",
-                                        "name": "SmallBearWithHeart.gif",
-                                        "hash": "8b77e29ce4f29ab1fb4e6970a3608d13",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-07-19T17:54:04",
-                                        "name": "UnicornHorn.gif",
-                                        "hash": "28274e878160503e96379f6b0c67849d",
-                                        "children": ""
+                                        "isFolder": "true",
+                                        "lastModified": "2019-12-17T07:57:08",
+                                        "name": "UnicornDance",
+                                        "hash": "172e3a51a06f0132e6a2799522f31123",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "dance celebrate Sticker by alearause_0.png",
+                                                "hash": "46ec066b446c407aab7869ef68c3f43a",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2019-12-17T07:56:19",
+                                                "name": "animation.t3d",
+                                                "hash": "322f08b274f4058175adae963a65f5df",
+                                                "children": ""
+                                            }
+                                        ]
                                     },
                                     {
                                         "isFolder": "false",
@@ -4429,36 +4647,36 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-08-10T22:18:50",
+                                "lastModified": "2019-12-17T07:57:42",
                                 "name": "Materials",
-                                "hash": "1e7337bf254c97561126d11f016bfe35",
+                                "hash": "e827788d5935141cad65136634dd289f",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-08-03T02:15:25",
+                                        "lastModified": "2019-12-17T07:57:42",
                                         "name": "Material Shiny Panda.lsmat",
-                                        "hash": "107403ac888a366bdbe15ca3f721342d",
+                                        "hash": "47dee19defca5c51d1495029f44cb872",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T19:26:56",
+                                        "lastModified": "2019-12-17T07:57:42",
                                         "name": "Material Basic White.lsmat",
-                                        "hash": "33d3b16558f250967fa6f0cbe3b909f3",
+                                        "hash": "4363c18788c986a69a2f222e4225dff7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-08-10T22:18:50",
+                                        "lastModified": "2019-12-17T07:57:41",
                                         "name": "Material for Post Effect - Edge Detection.lsmat",
-                                        "hash": "91d843c42cea70de7ca1fbca60d225ba",
+                                        "hash": "d60230732d1a3c4a1396639349d43d9a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-19T18:25:50",
+                                        "lastModified": "2019-12-17T07:57:42",
                                         "name": "Material for Post Effect  - VHS.lsmat",
-                                        "hash": "0544dbf22ca1f661c10ad1b5df3ddb1a",
+                                        "hash": "a4e200558ccf01bd6da86847bbb4a9c0",
                                         "children": ""
                                     },
                                     {
@@ -4472,9 +4690,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-20T21:32:26",
+                                "lastModified": "2019-12-17T07:57:42",
                                 "name": "Particles",
-                                "hash": "393998121752dffb58bcd7af5bdbdd5d",
+                                "hash": "fad734982927661c73d7162275163463",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4485,9 +4703,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-07-20T21:32:26",
+                                        "lastModified": "2019-12-17T07:57:42",
                                         "name": "Particles Emitter Material.lsmat",
-                                        "hash": "94de42b7cb879e1d627d6c79a7f3ae10",
+                                        "hash": "06bb3e38e514e17b7c54ea24c4ba1447",
                                         "children": ""
                                     },
                                     {
@@ -4515,7 +4733,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-07-19T19:03:42",
+                                "lastModified": "2019-12-17T07:57:08",
                                 "name": "Meshes",
                                 "hash": "19c0f8f101bd2aeac040b441b2c79abb",
                                 "children": [
@@ -4560,7 +4778,16 @@
                     }
                 },
                 "complexResources": [
-                    "38"
+                    "38",
+                    "107",
+                    "108",
+                    "109",
+                    "128",
+                    "163",
+                    "169",
+                    "170",
+                    "171",
+                    "172"
                 ]
             },
             "tree": {
@@ -4597,9 +4824,9 @@
                                 "dependency": "0",
                                 "uid": "1563573244578855:64818",
                                 "fileId": "88",
-                                "originalId": "89",
+                                "originalId": "18446744073709551615",
                                 "publicId": "107",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-qAlaHm\/sticker rainbow by Stefanie Shank.gif",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4610,9 +4837,9 @@
                                 "dependency": "0",
                                 "uid": "1563573621458803:90994",
                                 "fileId": "90",
-                                "originalId": "91",
+                                "originalId": "18446744073709551615",
                                 "publicId": "108",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-zlqbiA\/rainbow love Sticker.gif",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4623,9 +4850,9 @@
                                 "dependency": "0",
                                 "uid": "1563573684474601:92087",
                                 "fileId": "92",
-                                "originalId": "93",
+                                "originalId": "18446744073709551615",
                                 "publicId": "109",
-                                "source": "\/var\/folders\/dc\/j7bmyvg923db6k01r33tx1mr0000gn\/T\/Lens Studio-QWsSlj\/dance celebrate Sticker by alearause.gif",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4636,9 +4863,9 @@
                                 "dependency": "0",
                                 "uid": "1563576051774738:5100",
                                 "fileId": "119",
-                                "originalId": "120",
+                                "originalId": "18446744073709551615",
                                 "publicId": "128",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/GIPHY Imports\/romantic i love you Sticker.gif",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4649,9 +4876,9 @@
                                 "dependency": "0",
                                 "uid": "1563576315677334:15200",
                                 "fileId": "125",
-                                "originalId": "126",
+                                "originalId": "18446744073709551615",
                                 "publicId": "132",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/pandaRainbowSmall.jpg",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4662,9 +4889,9 @@
                                 "dependency": "0",
                                 "uid": "1563583241722362:842079",
                                 "fileId": "150",
-                                "originalId": "151",
+                                "originalId": "18446744073709551615",
                                 "publicId": "161",
-                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/RetroGame.png",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -4729,7 +4956,7 @@
                                         "dependency": "0",
                                         "uid": "1563578147970153:83127",
                                         "fileId": "131",
-                                        "originalId": "132",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "136",
                                         "source": "",
                                         "additional": ""
@@ -4742,7 +4969,7 @@
                                         "dependency": "0",
                                         "uid": "1563578147984227:83142",
                                         "fileId": "133",
-                                        "originalId": "134",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "137",
                                         "source": "",
                                         "additional": ""
@@ -4755,7 +4982,7 @@
                                         "dependency": "0",
                                         "uid": "1563578147998542:83157",
                                         "fileId": "135",
-                                        "originalId": "136",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "138",
                                         "source": "",
                                         "additional": ""
@@ -4783,9 +5010,9 @@
                                         "dependency": "0",
                                         "uid": "1564821236662831:15637",
                                         "fileId": "154",
-                                        "originalId": "155",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "169",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/butterfly.gif",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -4796,9 +5023,9 @@
                                         "dependency": "0",
                                         "uid": "1564821236812321:15655",
                                         "fileId": "156",
-                                        "originalId": "157",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "170",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/mercury.gif",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -4809,9 +5036,9 @@
                                         "dependency": "0",
                                         "uid": "1564821237038970:16379",
                                         "fileId": "158",
-                                        "originalId": "159",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "171",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/pinkHexagon.gif",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -4822,9 +5049,9 @@
                                         "dependency": "0",
                                         "uid": "1564821237246318:17750",
                                         "fileId": "160",
-                                        "originalId": "161",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "172",
-                                        "source": "\/Users\/psun\/Documents\/Dev\/LensStudio\/ExampleProjects\/ExampleProjectsAssets\/GIPHY SolidColorfulGifs\/redWaves.gif",
+                                        "source": "",
                                         "additional": ""
                                     },
                                     {
@@ -4835,9 +5062,9 @@
                                         "dependency": "0",
                                         "uid": "1563599306093014:104556",
                                         "fileId": "152",
-                                        "originalId": "153",
+                                        "originalId": "18446744073709551615",
                                         "publicId": "163",
-                                        "source": "\/Users\/psun\/Desktop\/trippy copy.gif",
+                                        "source": "",
                                         "additional": ""
                                     }
                                 ]
@@ -4891,7 +5118,7 @@
                                                 "dependency": "0",
                                                 "uid": "1541008768423090:14611",
                                                 "fileId": "13",
-                                                "originalId": "79",
+                                                "originalId": "168",
                                                 "publicId": "3",
                                                 "source": "",
                                                 "additional": ""
@@ -4919,7 +5146,7 @@
                                                 "dependency": "0",
                                                 "uid": "1541009341782021:17519",
                                                 "fileId": "23",
-                                                "originalId": "80",
+                                                "originalId": "169",
                                                 "publicId": "5",
                                                 "source": "",
                                                 "additional": ""
@@ -4932,7 +5159,7 @@
                                                 "dependency": "0",
                                                 "uid": "1541009354846058:17539",
                                                 "fileId": "24",
-                                                "originalId": "81",
+                                                "originalId": "170",
                                                 "publicId": "6",
                                                 "source": "",
                                                 "additional": ""
@@ -4960,7 +5187,7 @@
                                                 "dependency": "0",
                                                 "uid": "1541010747423843:34353",
                                                 "fileId": "32",
-                                                "originalId": "82",
+                                                "originalId": "171",
                                                 "publicId": "8",
                                                 "source": "",
                                                 "additional": ""
@@ -4973,7 +5200,7 @@
                                                 "dependency": "0",
                                                 "uid": "1541010748723777:34365",
                                                 "fileId": "33",
-                                                "originalId": "83",
+                                                "originalId": "172",
                                                 "publicId": "9",
                                                 "source": "",
                                                 "additional": ""
@@ -4988,7 +5215,7 @@
                                         "dependency": "0",
                                         "uid": "1528846144741425:5248",
                                         "fileId": "4",
-                                        "originalId": "84",
+                                        "originalId": "173",
                                         "publicId": "10",
                                         "source": "",
                                         "additional": ""
@@ -5001,7 +5228,7 @@
                                         "dependency": "0",
                                         "uid": "1541442730138264:93790",
                                         "fileId": "60",
-                                        "originalId": "85",
+                                        "originalId": "174",
                                         "publicId": "11",
                                         "source": "",
                                         "additional": ""
@@ -5014,7 +5241,7 @@
                                         "dependency": "0",
                                         "uid": "1541454117812197:651512",
                                         "fileId": "69",
-                                        "originalId": "86",
+                                        "originalId": "175",
                                         "publicId": "12",
                                         "source": "",
                                         "additional": ""
@@ -5027,7 +5254,7 @@
                                         "dependency": "0",
                                         "uid": "1541544993286291:922933",
                                         "fileId": "71",
-                                        "originalId": "87",
+                                        "originalId": "176",
                                         "publicId": "13",
                                         "source": "",
                                         "additional": ""
@@ -6224,9 +6451,9 @@
                                 "dependency": "0",
                                 "uid": "1563573826090077:101340",
                                 "fileId": "94",
-                                "originalId": "95",
+                                "originalId": "177",
                                 "publicId": "110",
-                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/Materials\/EdgeDetection.lsmat",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -6237,9 +6464,9 @@
                                 "dependency": "0",
                                 "uid": "1563574010732435:122355",
                                 "fileId": "104",
-                                "originalId": "105",
+                                "originalId": "178",
                                 "publicId": "115",
-                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/Materials\/VHS.lsmat",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -6250,9 +6477,9 @@
                                 "dependency": "0",
                                 "uid": "1563576315608558:15152",
                                 "fileId": "121",
-                                "originalId": "122",
+                                "originalId": "179",
                                 "publicId": "129",
-                                "source": "\/Users\/psun\/Documents\/Dev\/PublicGitRepos\/LensStudioWorkshop\/UnicornSunglasses\/Public\/PBR Panda Double Sided.lsmat",
+                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -6263,9 +6490,9 @@
                                 "dependency": "0",
                                 "uid": "1563578147927308:83085",
                                 "fileId": "129",
-                                "originalId": "130",
+                                "originalId": "180",
                                 "publicId": "139",
-                                "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/materials\/PBR.lsmat",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -6345,7 +6572,7 @@
                                 "dependency": "0",
                                 "uid": "1563579360390948:142106",
                                 "fileId": "137",
-                                "originalId": "138",
+                                "originalId": "18446744073709551615",
                                 "publicId": "141",
                                 "source": "",
                                 "additional": ""
@@ -6358,7 +6585,7 @@
                                 "dependency": "0",
                                 "uid": "1563579360398503:142121",
                                 "fileId": "139",
-                                "originalId": "140",
+                                "originalId": "181",
                                 "publicId": "142",
                                 "source": "",
                                 "additional": ""
@@ -6388,7 +6615,7 @@
                         "fileId": "142",
                         "originalId": "18446744073709551615",
                         "publicId": "144",
-                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/Fonts\/VT323-Regular.ttf",
+                        "source": "",
                         "additional": ""
                     },
                     {
@@ -6399,9 +6626,9 @@
                         "dependency": "0",
                         "uid": "1565490777308076:50661",
                         "fileId": "166",
-                        "originalId": "167",
+                        "originalId": "18446744073709551615",
                         "publicId": "174",
-                        "source": "\/Applications\/Lens Studio.app\/Contents\/MacOS\/\/..\/Resources\/Studio3DResources.bundle\/\/post_effects\/Beauty.png",
+                        "source": "",
                         "additional": ""
                     }
                 ]
@@ -6429,7 +6656,9 @@
             "17": "",
             "18": "",
             "19": "",
-            "20": ""
+            "20": "",
+            "22": "",
+            "23": ""
         },
         "ObjectPrefabController": {
             "state": {
